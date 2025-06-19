@@ -1,0 +1,8 @@
+{
+	"PluginId": "Admin.NET.Plugin.Pay.Alipay",
+	"DisplayName": "Alipay示例",
+	"Description": "这是支付宝插件",
+	"Author": "tomny",
+	"Version": "0.1.0",
+	"SupportedVersions": [ "0.0.1" ]
+}
