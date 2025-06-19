@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <NoWarn>1701;1702;8616;1591;8618;8619;8629;8602;8603;8604;8625;8765</NoWarn>
+    <DocumentationFile>Admin.NET.Plugin.Pay.Alipay.xml</DocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--<EnableDynamicLoading>true</EnableDynamicLoading>-->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Furion.Pure" Version="4.9.7.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Hub\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Hub\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Hub\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Cap.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <!-- 方便开发debug,与发布到nuget -->
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <PackageReference Include="PluginCore.IPlugins.AspNetCore" Version="0.0.1">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- 发布插件相关文件 -->
+  <ItemGroup>
+    <Content Include="info.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <!-- 发布 wwwroot -->
+  <ItemGroup>
+    <Content Include="wwwroot\*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\*\*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AliWebApiController.cs" />
+  </ItemGroup>
+
+</Project>
