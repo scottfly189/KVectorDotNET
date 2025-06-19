@@ -46,3 +46,5 @@ node_modules/
 /App/unpackage
 .history
 /package-lock.json
+
+ai.json
