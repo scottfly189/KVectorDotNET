@@ -25,7 +25,6 @@ public class LLMChatCoreService : ITransient
     private readonly SqlSugarRepository<LLMChatSummaryHistory> _chatSummaryHistoryService;
     private readonly IOptions<LLMOptions> _llmOption;
     private readonly UserManager _userManager;
-    private Kernel _kernel;
     private readonly SysCacheService _sysCacheService;
 
     public LLMChatCoreService(ILogger<LLMChatCoreService> logger,
