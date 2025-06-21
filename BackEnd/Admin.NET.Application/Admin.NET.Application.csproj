@@ -40,8 +40,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Admin.NET.Core\Admin.NET.Core.csproj" />
-    <ProjectReference Include="..\Plugins\Admin.NET.Plugin.GoView\Admin.NET.Plugin.GoView.csproj" />
-    <ProjectReference Include="..\Plugins\Admin.NET.Plugin.ReZero\Admin.NET.Plugin.ReZero.csproj" />
   </ItemGroup>
 
 </Project>

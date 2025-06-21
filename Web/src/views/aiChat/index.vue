@@ -256,11 +256,8 @@ const deepThinkingStatus = ref('start');
 const deepThinkingVisible = ref(false);
 
 let historyListSource: ChatListOutput[] = []; //从后台获取的原始历史记录
-// 添加重连相关配置
-const reconnectInterval = 5000; // 重连间隔时间（毫秒）
-const maxRetries = 1000; // 最大重试次数
-let retryCount = 0;
-let reconnectTimer: number | null = null;
+
+// let reconnectTimer: number | null = null;
 let utterance: SpeechSynthesisUtterance | null = null;
 const triggerIndices = ref<BubbleListProps['triggerIndices']>('only-last');
 
@@ -290,6 +287,7 @@ let eventSource: EventSource | null = null;
 const initSSEConnection = () => {
 	if (eventSource) {
 		eventSource.close();
+		eventSource = null;
 	}
 
 	eventSource = new EventSource('/sse/chat/' + userId());
@@ -328,66 +326,25 @@ const initSSEConnection = () => {
 			chatList.value[chatList.value.length - 1].content = currentChatItemMessage.value;
 			return;
 		}
-		currentChatItemMessage.value = currentChatItemMessage.value + data; // 先接收流式数据
-
-		// 收到消息后重置重试计数
-		retryCount = 0;
-		reconnectTimer = null;
+		currentChatItemMessage.value = currentChatItemMessage.value + data; // 先接收流式数据存放在临时变量中
 	});
 
 	// 收到ping消息, 用于心跳检测
 	eventSource.addEventListener('ping', (event) => {
 		console.log('heat beat:', event.data);
-		// 收到ping后重置重试计数
-		retryCount = 0;
-		reconnectTimer = null;
 	});
 
-	// 检查连接状态
-	const checkConnection = () => {
-		if (eventSource && eventSource.readyState === EventSource.CLOSED) {
-			console.log('Connection closed, attempting to reconnect...');
-			if (retryCount < maxRetries) {
-				retryCount++;
-				console.log(`Attempting to reconnect (${retryCount}/${maxRetries})...`);
-				reconnectTimer = window.setTimeout(() => {
-					initSSEConnection();
-				}, reconnectInterval);
-			}
-		}
-	};
-
-	// 定期检查连接状态
-	const connectionCheckInterval = setInterval(checkConnection, 3000);
 
 	eventSource.onerror = () => {
 		console.log('SSE connection error');
-		if (eventSource?.readyState === EventSource.CLOSED) {
-			if (connectionCheckInterval) {
-				clearInterval(connectionCheckInterval);
-			}
-			if (retryCount < maxRetries) {
-				retryCount++;
-				console.log(`Attempting to reconnect (${retryCount}/${maxRetries})...`);
-				reconnectTimer = window.setTimeout(() => {
-					initSSEConnection();
-				}, reconnectInterval);
-			}
-		}
 	};
 
 	eventSource.onopen = (event) => {
 		console.log('SSE connection opened:', event);
-		retryCount = 0; // 连接成功后重置重试计数
-		reconnectTimer = null;
 	};
 };
 
 const closeSSEConnection = () => {
-	if (reconnectTimer) {
-		clearTimeout(reconnectTimer);
-		reconnectTimer = null;
-	}
 	if (eventSource) {
 		eventSource.close();
 		eventSource = null;

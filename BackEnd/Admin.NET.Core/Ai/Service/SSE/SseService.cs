@@ -33,6 +33,9 @@ public class SseService : ControllerBase
         Response.Headers.Append("Connection", "keep-alive");
         Response.Headers.Append("X-Accel-Buffering", "no"); // Nginx
 
+        await Response.WriteAsync("retry: 5000\n\n");
+        await Response.Body.FlushAsync(cancellationToken);
+
         var channel = _sseChannelManager.Register(id);
         var deepThinkingChannel = _sseDeepThinkingChannelManager.Register(id);
         try
