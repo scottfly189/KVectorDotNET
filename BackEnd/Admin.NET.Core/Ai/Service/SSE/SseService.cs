@@ -32,10 +32,7 @@ public class SseService : ControllerBase
         Response.Headers.Append("Cache-Control", "no-cache");
         Response.Headers.Append("Connection", "keep-alive");
         Response.Headers.Append("X-Accel-Buffering", "no"); // Nginx
-
-        await Response.WriteAsync("retry: 5000\n\n");
-        await Response.Body.FlushAsync(cancellationToken);
-
+        
         var channel = _sseChannelManager.Register(id);
         var deepThinkingChannel = _sseDeepThinkingChannelManager.Register(id);
         try
@@ -49,7 +46,7 @@ public class SseService : ControllerBase
                     await Response.WriteAsync($"event: ping\n");
                     await Response.WriteAsync($"data: pong\n\n");
                     await Response.Body.FlushAsync(cancellationToken);
-                    await Task.Delay(5000, cancellationToken);
+                    await Task.Delay(3000, cancellationToken);
                 }
             });
             _ = Task.Run(async () =>

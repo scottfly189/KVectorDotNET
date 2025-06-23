@@ -45,6 +45,7 @@ node_modules/
 /Admin.NET.App/unpackage
 /App/unpackage
 .history
+.log
 /package-lock.json
 
 ai.json
