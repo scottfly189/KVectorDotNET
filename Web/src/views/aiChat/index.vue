@@ -257,7 +257,6 @@ const deepThinkingVisible = ref(false);
 
 let historyListSource: ChatListOutput[] = []; //从后台获取的原始历史记录
 
-// let reconnectTimer: number | null = null;
 let utterance: SpeechSynthesisUtterance | null = null;
 const triggerIndices = ref<BubbleListProps['triggerIndices']>('only-last');
 
@@ -280,6 +279,12 @@ const actionMenuItems = [
 		icon: Delete,
 	},
 ];
+// 处理菜单点击
+const renameDialogVisible = ref(false);
+const currentEditItem = ref<any>(null);
+const renameInput = ref('');
+const renameModalRef = ref<HTMLElement | null>(null);
+let dragData = { dragging: false, offsetX: 0, offsetY: 0 };
 
 //#region sse客户端
 let eventSource: EventSource | null = null;
@@ -632,12 +637,7 @@ const loadMoreHistoryItems = async () => {
 	isHistoryListLoading.value = false;
 };
 
-// 处理菜单点击
-const renameDialogVisible = ref(false);
-const currentEditItem = ref<any>(null);
-const renameInput = ref('');
-const renameModalRef = ref<HTMLElement | null>(null);
-let dragData = { dragging: false, offsetX: 0, offsetY: 0 };
+
 
 const handleMenuClick = (menuKey: string, item: any) => {
 	switch (menuKey) {
