@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Thinking Done',
 		thinkingFailed: 'Thinking Failed',
 		thinkingPrepare: 'Thinking Prepare...',
+		backEndError: 'Failed to connect to the backend service, please check if the backend is normal',
 	},
 }; 

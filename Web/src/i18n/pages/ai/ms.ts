@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Berpikir selesai',
 		thinkingFailed: 'Berpikir gagal',
 		thinkingPrepare: 'Mempersiapkan berpikir...',
+		backEndError: 'Gagal menghubungkan ke layanan backend, silakan periksa apakah backend berfungsi',
 	},
 }; 

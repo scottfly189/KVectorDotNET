@@ -25,6 +25,7 @@ export default {
 		thinkingDone: 'คิดลึก',
 		thinkingFailed: 'คิดลึก',
 		thinkingPrepare: 'คิดลึก',
+		backEndError: 'ลบัพของระบบไม่สามารถดึงข้อมูลระบบได้ กรุณาตรวจสอบอีกครั้ง',
 	},
 
 }; 

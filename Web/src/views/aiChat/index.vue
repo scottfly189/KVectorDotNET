@@ -293,21 +293,32 @@ let dragData = { dragging: false, offsetX: 0, offsetY: 0 };
 let eventSource: EventSource | null = null;
 let monitorSSEConnectionHandler: NodeJS.Timeout | null = null;
 let lastSseConnectionTime = Date.now();
+let isSSEConnectionClosed = false;
+const SSE_CONNECTION_TIMEOUT = 5000;
 // 初始化sse连接
 const initSSEConnection = () => {
+	initSSEConnectionCore();
+	// 监控sse连接
 	monitorSSEConnectionHandler = setInterval(() => {
-		let now = Date.now();
-		if (now - lastSseConnectionTime > 5000) {
-			console.log("sse连接超时，重新连接");
+		isSSEConnectionClosed = Date.now() - lastSseConnectionTime > SSE_CONNECTION_TIMEOUT;
+		if (isSSEConnectionClosed) {
+			console.log("SSE connection timed out, reconnecting");
 			try {
 				initSSEConnectionCore();
 			} catch (err) {
-
+				console.log("SSE connection timed out, reconnecting failed", err);
 			}
-		}
-	}, 5000);
-	initSSEConnectionCore();
+		} 
+	}, SSE_CONNECTION_TIMEOUT);
 };
+
+// 检查sse连接状态
+const checkSSEConnectionStatus = () => {
+	if (isSSEConnectionClosed) {
+		return false;
+	}
+	return true;
+}
 // 初始化sse连接核心代码
 const initSSEConnectionCore = () => {
 	closeSSEConnection();
@@ -382,6 +393,10 @@ const handleBubbleComplete = (instance: TypewriterInstance, index: number) => {
 //#endregion sse客户端
 const handleSend = async () => {
 	if (!senderInput.value.trim()) return;
+	if (!checkSSEConnectionStatus()) {
+		ElMessage.error(t('message.chat.backEndError'));
+		return;
+	}
 	isSenderLoading.value = true;
 	currentChatItemMessage.value = '';
 	if (isNew.value) {

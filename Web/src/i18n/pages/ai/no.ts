@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Tenking ferdig',
 		thinkingFailed: 'Tenking feilet',
 		thinkingPrepare: 'Tenking forbereder...',
+		backEndError: 'Feil ved tilkobling til backend-tjenesten, sjekk om backend-tjenesten er normal',
 	},
 }; 
