@@ -100,9 +100,9 @@ export const useThemeConfig = defineStore('themeConfig', {
 			// 是否开启色弱模式
 			isInvert: false,
 			// 是否开启水印
-			isWatermark: true,
+			isWatermark: false,
 			// 水印文案
-			watermarkText: 'Admin.NET',
+			watermarkText: 'KVectorDOTNET',
 
 			/**
 			 * 其它设置
@@ -135,13 +135,13 @@ export const useThemeConfig = defineStore('themeConfig', {
 			 * 全局网站标题 / 副标题
 			 */
 			// 网站主标题（菜单导航、浏览器当前网页标题）
-			globalTitle: 'Admin.NET.Pro',
+			globalTitle: 'KVectorDotNET',
 			// 网站副标题（登录页顶部文字）
-			globalViceTitle: 'Admin.NET',
+			globalViceTitle: 'KVectorDotNET',
 			// 网站副标题（登录页顶部文字）
-			globalViceTitleMsg: '站在巨人肩膀上的 .NET 通用权限开发框架',
+			globalViceTitleMsg: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 			// 版权和备案文字
-			copyright: 'Copyright © 2021-Present Admin.NET All rights reserved.',
+			copyright: 'Copyright © 2021-Present KVectorDotNET All rights reserved.',
 			// 默认初始语言，可选值"<zh-CN|en|zh-TW>"，默认 zh-CN
 			globalI18n: 'zh-CN',
 			// 默认全局组件大小，可选值"<large|'default'|small>"，默认 'large'

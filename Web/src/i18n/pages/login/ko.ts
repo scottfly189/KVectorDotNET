@@ -40,4 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: '이메일을 입력해 주세요',
 	},
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };

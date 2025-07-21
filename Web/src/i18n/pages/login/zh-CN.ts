@@ -40,5 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: '请输入邮箱',
 	},
-	viceDesc: '站在巨人肩膀上的 .NET 通用权限开发框架',
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };

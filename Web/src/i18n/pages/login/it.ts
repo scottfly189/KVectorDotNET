@@ -40,4 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: "Inserisci l'indirizzo email",
 	},
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };

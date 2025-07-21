@@ -1,10 +1,9 @@
 {
-	"name": "admin.net.pro",
+	"name": "kvectordotnet",
 	"type": "module",
-	"version": "2.4.33",
+	"version": "0.1.0",
 	"lastBuildTime": "2025.06.19",
-	"description": "Admin.NET 站在巨人肩膀上的 .NET 通用权限开发框架",
-	"author": "zuohuaijun",
+	"description": "A .NET framework for permissions, artificial intelligence, and internationalization",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite --open",

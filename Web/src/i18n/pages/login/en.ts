@@ -40,5 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: 'Please enter the email',
 	},
-	viceDesc: 'Standing on the shoulders of giants NET Universal Permission Development Framework',
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };

@@ -40,4 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: '請輸入電子郵件',
 	},
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };

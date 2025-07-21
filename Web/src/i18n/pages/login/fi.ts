@@ -40,4 +40,5 @@ export default {
 	email: {
 		emailPlaceholder: 'Syötä sähköpostiosoite',
 	},
+	viceDesc: 'A .NET framework for permissions, artificial intelligence, and internationalization',
 };
