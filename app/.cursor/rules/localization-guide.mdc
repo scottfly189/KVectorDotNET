@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 本地化指南
+本应用是一个国际化的App应用，使用flutter_intl插件进行国际化
+
+## 国际化特别要求
+- 每当在一个国际化文件中添加一个键值对时，相应的其他的国际化文件也应该增加一个同样名称的键值对，键应该保持一致，值翻译成对应国际化语言的值,保留特殊格式，如 {name} 这样的变量占位符;
+
+## 使用flutter_intl插件进行国际化的资源文件目录
+本项目的国际化资源文件位于 [lib/l10n/](mdc:lib/l10n) 目录下，以 .arb 文件形式存储。自动生成的本地化代码位于 [lib/generated/](mdc:lib/generated) 目录下。
+- [intl_de.arb](mdc:lib/l10n/intl_de.arb): 德文资源化文件;
+- [intl_en.arb](mdc:lib/l10n/intl_en.arb): 英文资源化文件;
+- [intl_es.arb](mdc:lib/l10n/intl_es.arb): 西班牙语资源化文件;
+- [intl_fi.arb](mdc:lib/l10n/intl_fi.arb): 芬兰语资源化文件;
+- [intl_fr.arb](mdc:lib/l10n/intl_fr.arb): 法语资源化文件;
+- [intl_it.arb](mdc:lib/l10n/intl_it.arb): 意大利语资源化文件;
+- [intl_ja.arb](mdc:lib/l10n/intl_ja.arb): 日语资源化文件;
+- [intl_ko.arb](mdc:lib/l10n/intl_ko.arb): 韩文/韩语资源化文件;
+- [intl_nb.arb](mdc:lib/l10n/intl_nb.arb): 挪威语资源化文件;
+- [intl_pl.arb](mdc:lib/l10n/intl_pl.arb): 波兰语资源化文件;
+- [intl_pt.arb](mdc:lib/l10n/intl_pt.arb): 葡萄牙语资源化文件;
+- [intl_ru.arb](mdc:lib/l10n/intl_ru.arb): 俄语资源化文件;
+- [intl_id.arb](mdc:lib/l10n/intl_id.arb): 印度尼西亚语资源化文件;
+- [intl_th.arb](mdc:lib/l10n/intl_th.arb): 泰语资源化文件;
+- [intl_ms.arb](mdc:lib/l10n/intl_ms.arb): 马来西亚语资源化文件;
+- [intl_vi.arb](mdc:lib/l10n/intl_vi.arb): 越南语资源化文件;
+- [intl_zh_CN.arb](mdc:lib/l10n/intl_zh_CN.arb): 简体中文资源化文件;
+- [intl_zh_HK.arb](mdc:lib/l10n/intl_zh_HK.arb): 繁体中文(香港)资源化文件;
+- [intl_zh_TW.arb](mdc:lib/l10n/intl_zh_TW.arb): 繁体中文(台湾地区)资源化文件;
+
+- [lib/generated/l10n.dart](mdc:lib/generated/l10n.dart)：自动生成的本地化代码入口。
+
+

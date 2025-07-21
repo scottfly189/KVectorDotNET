@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Rekisteröidy",
+    "login": "Kirjaudu",
+    "ok": "OK",
+    "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "next": "Seuraava"
+  },
+  "header": {
+    "products": "Tuotteet",
+    "customers": "Asiakkaat",
+    "industries": "Toimialat",
+    "resources": "Resurssit",
+    "about": "Tietoa",
+    "pricing": "Hinnoittelu",
+    "contact": "Yhteystiedot",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Ratkaisut",
+          "links": {
+            "platform": "Alustakatsaus",
+            "constructionManagement": "Rakennushallinta",
+            "buildingOperations": "Rakennustoiminta"
+          }
+        },
+        "capabilities": {
+          "title": "Ominaisuudet",
+          "links": {
+            "plans": "Suunnitelmat ja BIM",
+            "documentManagement": "Asiakirjahallinta",
+            "reporting": "Raportointi ja analytiikka",
+            "schedules": "Aikataulut",
+            "integrations": "Integraatiot",
+            "security": "Turvallisuus ja tietosuoja"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Visuaalinen dokumentaatio",
+          "links": {
+            "siteView": "Työmaan 360° näkymä"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Yleiskatsaus",
+          "links": {
+            "overview": "Asiakaskatsaus"
+          }
+        },
+        "segments": {
+          "title": "Asiakassegmentit",
+          "links": {
+            "contractors": "Urakoitsijat",
+            "developers": "Kehittäjät ja omistajat",
+            "facilityManagers": "Kiinteistöpäälliköt",
+            "specialtyContractors": "Erikoisurakoitsijat",
+            "consultancies": "Konsulttiyritykset",
+            "architects": "Arkkitehdit"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Ratkaisut",
+          "links": {
+            "construction": "Rakentaminen",
+            "realEstate": "Kiinteistöt",
+            "facilityManagement": "Kiinteistönhallinta"
+          }
+        },
+        "sectors": {
+          "title": "Sektorit",
+          "links": {
+            "retail": "Vähittäiskauppa",
+            "infrastructure": "Infrastruktuuri",
+            "hospitality": "Majoituspalvelut",
+            "publicSector": "Julkinen sektori",
+            "office": "Toimisto",
+            "industrial": "Teollisuus",
+            "residential": "Asuinrakentaminen"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Resurssit",
+          "links": {
+            "quickStart": "Pikaopas",
+            "helpCenter": "Tukikeskus",
+            "blog": "Blogi",
+            "events": "Tapahtumat",
+            "security": "Turvallisuus",
+            "academy": "Akatemia"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Yritys",
+          "links": {
+            "aboutUs": "Tietoa meistä",
+            "team": "Tiimi",
+            "press": "Lehdistö",
+            "careers": "Urat",
+            "partners": "Kumppanit"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Rakennus-, kiinteistönhoito- ja kiinteistöalusta",
+    "subtitle": "Yksinkertaista työpäivääsi",
+    "coreFeatures": "Ydinominaisuudet",
+    "defectManagement": {
+      "title": "Virheidenhallinta",
+      "description": "Tallenna ja seuraa rakennusvirheitä nopeasti laadun varmistamiseksi"
+    },
+    "documentManagement": {
+      "title": "Asiakirjahallinta",
+      "description": "Tallenna ja hallitse projektiasiakirjoja keskitetysti, käytettävissä milloin ja missä tahansa"
+    },
+    "dataReporting": {
+      "title": "Tietoraportointi",
+      "description": "Luo projektiraportteja automaattisesti, seuraa edistymistä reaaliajassa"
+    },
+    "projectManagement": {
+      "title": "Projektinhallinta",
+      "description": "Keskittää projektinhallinnan varmistaakseen, että se suoritetaan ajoissa"
+    },
+    "teamCollaboration": {
+      "title": "Tiimin yhteistyö",
+      "description": "Täydentää tiimin yhteistyötä ja parantaa työtehoa"
+    },
+    "mobileAccess": {
+      "title": "Mobiilituva",
+      "description": "Pääse projektin tietoihin milloin tahansa ja missä tahansa, parantaa työtehoa"
+    }
+  },
+  "register": {
+    "title": "Luo tilisi",
+    "subtitle": "30 päivän ilmainen kokeilu",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "confirmPassword": "Vahvista salasana",
+    "requireEmail": "Syötä sähköpostiosoitteesi",
+    "requirePassword": "Syötä salasanasi",
+    "requireConfirmPassword": "Vahvista salasanasi",
+    "requireAcceptMarketing": "Hyväksyn käyttöehdot",
+    "confirmMarcketing": "Olen lukenut ja hyväksyn käyttäjäsopimuksen",
+    "register": "Rekisteröidy",
+    "login": "Kirjaudu",
+    "registerSuccessMessage": "Rekisteröityminen onnistui, ole hyvä ja kirjaudu sisään",
+    "registerErrorEmail": "Sähköpostiosoite on jo käytössä",
+    "registerErrorConfirmPassword": "Salasanat eivät täsmää",
+    "registerErrorConfirmMarcketing": "Hyväksy käyttöehdot",
+    "registerErrorEmailRequired": "Sähköpostiosoite vaaditaan",
+    "registerErrorPasswordRequired": "Salasana vaaditaan",
+    "registerErrorConfirmPasswordRequired": "Salasanan vahvistus vaaditaan",
+    "registerErrorEmailInvalid": "Virheellinen sähköpostiosoite",
+    "querySendEmail": "Lähetämme sinulle varmistaussähköpostin sähköpostiosoitteeseesi, ole hyvä ja kirjaudu sisään sähköpostiin nähdäksesi varmistaussähköpostin, sähköpostin varmistaussymbolit voivat auttaa sinua täyttämään rekisteröintitilan",
+    "emailSentSuccess": "Sähköposti lähetetty onnistuneesti, ole hyvä ja kirjaudu sisään sähköpostiin nähdäksesi varmistaussähköpostin, sähköpostin varmistaussymbolit voivat auttaa sinua täyttämään rekisteröintitilan",
+    "registerWillComplete": "Rekisteröinti tulee täyttämään",
+    "registerWillCompleteSubtitle": "Täydennä yritystiedot",
+    "finishCompanyNamePlaceholder": "Syötä yrityksesi nimi",
+    "finishCompanyNameRequired": "Yrityksen nimi on pakollinen",
+    "verificationCode": "Varmistussymbolit(Hae sähköpostista)",
+    "verificationCodePlaceholder": "Syötä varmistussymbolit",
+    "verificationCodeRequired": "Varmistussymbolit ovat pakollisia",
+    "sendingEmail": "Lähetetään sähköpostia...",
+    "verificationCodeError": "Varmistussymbolit eivät täsmää tai ovat vanhentuneet",
+    "creatingAccount": "Luo tilisi ja yrityksesi, ole hyvä ja odota...",
+    "emailSentError": "Sähköposti ei voida lähettää, ole hyvä ja tarkista sähköpostiosoite tai sähköpostiosoite on jo käytössä",
+    "registering": "Rekisteröityminen, ole hyvä ja odota...",
+    "registerFailed": "Rekisteröityminen epäonnistui, ole hyvä ja yritä uudelleen myöhemmin",
+    "registerSuccess": "Onnittelut! Rekisteröityminen onnistui!",
+    "registerSuccessSubtitle": "Ole hyvä ja kirjaudu sisään sähköpostiosoitteeseesi ja salasanasi",
+    "fullName": "Etunimi ja sukunimi",
+    "requireFullName": "Syötä etunimesi ja sukunimesi",
+    "registerErrorFullNameRequired": "Etunimesi ja sukunimesi ovat pakollisia",
+    "mobile": "Puhelinnumero",
+    "registerErrorMobileRequired": "Puhelinnumero on pakollinen"
+  },
+  "userRegister": {
+    "title": "Sinun ylläpitäjäsi kutsui sinut liittymään tietokantaan",
+    "subtitle": "Ole hyvä ja kirjaudu sisään sähköpostiosoitteeseesi",
+    "successTitle": "👋👋Onnittelut! Olet liittynyt seuraavaan tietokantaan:",
+    "joinTeam": "Liittyminen tietokantaan...",
+    "joinTeamSuccess": "Tietokanta liitoksenne onnistui, ole hyvä ja kirjaudu sisään",
+    "joinTeamFailed": "Tietokanta liitoksenne epäonnistui, ole hyvä ja yritä uudelleen myöhemmin"
+  }
+} 

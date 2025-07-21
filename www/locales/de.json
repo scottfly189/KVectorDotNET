@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Registrieren",
+    "login": "Login",
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "next": "Weiter"
+  },
+  "header": {
+    "products": "Produkte",
+    "customers": "Kunden",
+    "industries": "Branchen",
+    "resources": "Ressourcen",
+    "about": "Über uns",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Lösungen",
+          "links": {
+            "platform": "Plattformübersicht",
+            "constructionManagement": "Baumanagement",
+            "buildingOperations": "Gebäudebetrieb"
+          }
+        },
+        "capabilities": {
+          "title": "Funktionen",
+          "links": {
+            "plans": "Pläne & BIM",
+            "documentManagement": "Dokumentenmanagement",
+            "reporting": "Berichterstattung & Analyse",
+            "schedules": "Zeitpläne",
+            "integrations": "Integrationen",
+            "security": "Sicherheit & Datenschutz"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Visuelle Dokumentation",
+          "links": {
+            "siteView": "Baustellenansicht 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Überblick",
+          "links": {
+            "overview": "Kundenüberblick"
+          }
+        },
+        "segments": {
+          "title": "Kundensegmente",
+          "links": {
+            "contractors": "Bauunternehmer",
+            "developers": "Entwickler & Eigentümer",
+            "facilityManagers": "Facility Manager",
+            "specialtyContractors": "Fachunternehmer",
+            "consultancies": "Beratungsunternehmen",
+            "architects": "Architekten"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Lösungen",
+          "links": {
+            "construction": "Bau",
+            "realEstate": "Immobilien",
+            "facilityManagement": "Facility Management"
+          }
+        },
+        "sectors": {
+          "title": "Sektoren",
+          "links": {
+            "retail": "Einzelhandel",
+            "infrastructure": "Infrastruktur",
+            "hospitality": "Gastgewerbe",
+            "publicSector": "Öffentlicher Sektor",
+            "office": "Büro",
+            "industrial": "Industrie",
+            "residential": "Wohnungsbau"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Ressourcen",
+          "links": {
+            "quickStart": "Schnellstart",
+            "helpCenter": "Hilfezentrum",
+            "blog": "Blog",
+            "events": "Veranstaltungen",
+            "security": "Sicherheit",
+            "academy": "Akademie"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Unternehmen",
+          "links": {
+            "aboutUs": "Über uns",
+            "team": "Team",
+            "press": "Presse",
+            "careers": "Karriere",
+            "partners": "Partner"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Bau-, Facility Management & Immobilienplattform",
+    "subtitle": "Vereinfachen Sie Ihren Arbeitsalltag",
+    "coreFeatures": "Kernfunktionen",
+    "defectManagement": {
+      "title": "Mängelverwaltung",
+      "description": "Schnelles Erfassen und Verfolgen von Baumängeln zur Qualitätssicherung"
+    },
+    "documentManagement": {
+      "title": "Dokumentenmanagement",
+      "description": "Zentrale Speicherung und Verwaltung von Projektdokumenten, jederzeit und überall zugänglich"
+    },
+    "dataReporting": {
+      "title": "Datenberichte",
+      "description": "Automatische Generierung von Projektberichten, Fortschrittsverfolgung in Echtzeit"
+    },
+    "projectManagement": {
+      "title": "Projektmanagement",
+      "description": "Zentrale Projektverwaltung zur Gewährleistung der Terminierung"
+    },
+    "teamCollaboration": {
+      "title": "Team-Zusammenarbeit",
+      "description": "Fördern Sie die Zusammenarbeit in Ihrem Team und verbessern Sie die Arbeitsproduktivität"
+    },
+    "mobileAccess": {
+      "title": "Mobilzugang",
+      "description": "Zugang zu Projektinformationen jederzeit und überall, verbessert die Arbeitsproduktivität"
+    }
+  },
+  "register": {
+    "title": "Konto einrichten",
+    "subtitle": "30-Tage kostenlose Testversion",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "requireEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+    "requirePassword": "Bitte geben Sie Ihr Passwort ein",
+    "requireConfirmPassword": "Bitte bestätigen Sie Ihr Passwort",
+    "requireAcceptMarketing": "Ich stimme den Nutzungsbedingungen zu",
+    "confirmMarcketing": "Ich habe die Nutzungsvereinbarung gelesen und stimme ihr zu",
+    "register": "Einrichten",
+    "login": "Anmelden",
+    "registerSuccessMessage": "Erfolgreich eingerichtet, bitte melden Sie sich an",
+    "registerErrorEmail": "E-Mail-Adresse existiert bereits",
+    "registerErrorConfirmPassword": "Passwörter stimmen nicht überein",
+    "registerErrorConfirmMarcketing": "Bitte stimmen Sie den Nutzungsbedingungen zu",
+    "registerErrorEmailRequired": "E-Mail-Adresse ist erforderlich",
+    "registerErrorPasswordRequired": "Passwort ist erforderlich",
+    "registerErrorConfirmPasswordRequired": "Passwortbestätigung ist erforderlich",
+    "registerErrorEmailInvalid": "E-Mail-Adresse ist ungültig",
+    "querySendEmail": "Wir senden eine Bestätigungs-E-Mail an {email}, bitte melden Sie sich bei der E-Mail an, um die Bestätigungs-E-Mail zu sehen, die Bestätigungscodes in der E-Mail können Ihnen helfen, den Registrierungsprozess zu vervollständigen",
+    "emailSentSuccess": "E-Mail erfolgreich gesendet, bitte melden Sie sich bei der E-Mail an, um die Bestätigungs-E-Mail zu sehen, die Bestätigungscodes in der E-Mail können Ihnen helfen, den Registrierungsprozess zu vervollständigen",
+    "registerWillComplete": "Registrierung wird abgeschlossen",
+    "registerWillCompleteSubtitle": "Vervollständigen Sie die Unternehmensinformationen",
+    "finishCompanyNamePlaceholder": "Bitte geben Sie den Unternehmensnamen ein",
+    "finishCompanyNameRequired": "Unternehmensname ist erforderlich",
+    "verificationCode": "Bestätigungscodes(Bitte aus der E-Mail abrufen)",
+    "verificationCodePlaceholder": "Bitte geben Sie den Bestätigungscodes ein",
+    "verificationCodeRequired": "Bestätigungscodes sind erforderlich",
+    "sendingEmail": "E-Mail wird gesendet...",
+    "verificationCodeError": "Bestätigungscodes stimmen nicht überein oder sind abgelaufen",
+    "creatingAccount": "Konto und Unternehmen werden erstellt, bitte warten Sie...",
+    "emailSentError": "E-Mail konnte nicht gesendet werden, bitte überprüfen Sie die E-Mail-Adresse oder die E-Mail ist bereits registriert",
+    "registering": "Registrieren, bitte warten Sie...",
+    "registerFailed": "Registrierung fehlgeschlagen, bitte versuchen Sie es später erneut",
+    "registerSuccess": "Glückwunsch! Registrierung erfolgreich!",
+    "registerSuccessSubtitle": "Bitte verwenden Sie die registrierte E-Mail-Adresse und das Passwort, um sich bei der System anzumelden",
+    "fullName": "Vor- und Nachname",
+    "requireFullName": "Bitte geben Sie Ihren Vornamen und Nachnamen ein",
+    "registerErrorFullNameRequired": "Vor- und Nachname sind erforderlich",
+    "mobile": "Telefonnummer",
+    "registerErrorMobileRequired": "Telefonnummer ist erforderlich"
+  },
+  "userRegister": {
+    "title": "Ihr Administrator hat Sie eingeladen, um der Team beizutreten",
+    "subtitle": "Bitte verwenden Sie Ihre E-Mail-Adresse, um sich bei der System anzumelden",
+    "successTitle": "👋👋Glückwunsch! Sie werden der folgende Team beitreten:",
+    "joinTeam": "Team beitreten...",
+    "joinTeamSuccess": "Team erfolgreich beitreten, bitte melden Sie sich bei der System an",
+    "joinTeamFailed": "Teambeitreten fehlgeschlagen, bitte versuchen Sie es später erneut"
+  }
+} 

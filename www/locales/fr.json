@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "S'inscrire",
+    "login": "Connexion",
+    "ok": "OK",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "next": "Suivant"
+  },
+  "header": {
+    "products": "Produits",
+    "customers": "Clients",
+    "industries": "Industries",
+    "resources": "Ressources",
+    "about": "À propos",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solutions",
+          "links": {
+            "platform": "Aperçu de la plateforme",
+            "constructionManagement": "Gestion de la construction",
+            "buildingOperations": "Opérations de bâtiment"
+          }
+        },
+        "capabilities": {
+          "title": "Capacités",
+          "links": {
+            "plans": "Plans et BIM",
+            "documentManagement": "Gestion documentaire",
+            "reporting": "Rapports et analyses",
+            "schedules": "Planifications",
+            "integrations": "Intégrations",
+            "security": "Sécurité et protection des données"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Documentation visuelle",
+          "links": {
+            "siteView": "Vue du site à 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Aperçu",
+          "links": {
+            "overview": "Aperçu des clients"
+          }
+        },
+        "segments": {
+          "title": "Segments de clientèle",
+          "links": {
+            "contractors": "Entrepreneurs",
+            "developers": "Développeurs et propriétaires",
+            "facilityManagers": "Gestionnaires d'installations",
+            "specialtyContractors": "Entrepreneurs spécialisés",
+            "consultancies": "Cabinets de conseil",
+            "architects": "Architectes"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solutions",
+          "links": {
+            "construction": "Construction",
+            "realEstate": "Immobilier",
+            "facilityManagement": "Gestion des installations"
+          }
+        },
+        "sectors": {
+          "title": "Secteurs",
+          "links": {
+            "retail": "Commerce de détail",
+            "infrastructure": "Infrastructure",
+            "hospitality": "Hôtellerie",
+            "publicSector": "Secteur public",
+            "office": "Bureau",
+            "industrial": "Industriel",
+            "residential": "Résidentiel"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Ressources",
+          "links": {
+            "quickStart": "Démarrage rapide",
+            "helpCenter": "Centre d'aide",
+            "blog": "Blog",
+            "events": "Événements",
+            "security": "Sécurité",
+            "academy": "Académie"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Entreprise",
+          "links": {
+            "aboutUs": "À propos de nous",
+            "team": "Équipe",
+            "press": "Presse",
+            "careers": "Carrières",
+            "partners": "Partenaires"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Plateforme de Construction, Gestion des Installations et Immobilier",
+    "subtitle": "Simplifiez votre journée de travail",
+    "coreFeatures": "Fonctionnalités principales",
+    "defectManagement": {
+      "title": "Gestion des défauts",
+      "description": "Enregistrez et suivez rapidement les défauts de construction pour assurer la qualité"
+    },
+    "documentManagement": {
+      "title": "Gestion documentaire",
+      "description": "Stockez et gérez de manière centralisée les documents du projet, accessibles à tout moment et en tout lieu"
+    },
+    "dataReporting": {
+      "title": "Rapports de données",
+      "description": "Générez automatiquement des rapports de projet, suivez la progression en temps réel"
+    },
+    "projectManagement": {
+      "title": "Gestion de projet",
+      "description": "Centralisez la gestion de projet pour garantir la finalisation à temps"
+    },
+    "teamCollaboration": {
+      "title": "Collaboration de l'équipe",
+      "description": "Favorisez la collaboration dans votre équipe et améliorez la productivité du travail"
+    },
+    "mobileAccess": {
+      "title": "Accès mobile",
+      "description": "Accédez à l'information du projet à tout moment et en tout lieu, améliore la productivité du travail"
+    }
+  },
+  "register": {
+    "title": "Créez votre compte",
+    "subtitle": "Essai gratuit de 30 jours",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "requireEmail": "Veuillez saisir votre e-mail",
+    "requirePassword": "Veuillez saisir votre mot de passe",
+    "requireConfirmPassword": "Veuillez confirmer votre mot de passe",
+    "requireAcceptMarketing": "J'accepte les conditions générales",
+    "confirmMarcketing": "J'ai lu et j'accepte le contrat d'utilisation",
+    "register": "Créer",
+    "login": "Connexion",
+    "registerSuccessMessage": "Compte créé avec succès, veuillez vous connecter",
+    "registerErrorEmail": "Cet e-mail existe déjà",
+    "registerErrorConfirmPassword": "Les mots de passe ne correspondent pas",
+    "registerErrorConfirmMarcketing": "Veuillez accepter les conditions générales",
+    "registerErrorEmailRequired": "L'e-mail est requis",
+    "registerErrorPasswordRequired": "Le mot de passe est requis",
+    "registerErrorConfirmPasswordRequired": "La confirmation du mot de passe est requise",
+    "registerErrorEmailInvalid": "L'e-mail est invalide",
+    "querySendEmail": "Nous vous envoyerons un e-mail de vérification à {email}, veuillez vous connecter à l'e-mail pour voir l'e-mail de vérification, le code de vérification dans l'e-mail peut vous aider à compléter le processus de création de compte",
+    "emailSentSuccess": "E-mail envoyé avec succès, veuillez vous connecter à l'e-mail pour voir l'e-mail de vérification, le code de vérification dans l'e-mail peut vous aider à compléter le processus de création de compte",
+    "registerWillComplete": "Création de compte en cours",
+    "registerWillCompleteSubtitle": "Compléter les informations de l'entreprise",
+    "finishCompanyNamePlaceholder": "Veuillez entrer le nom de l'entreprise",
+    "finishCompanyNameRequired": "Le nom de l'entreprise est requis",
+    "verificationCode": "Code de vérification(Veuillez le récupérer dans l'e-mail)",
+    "verificationCodePlaceholder": "Veuillez entrer le code de vérification",
+    "verificationCodeRequired": "Le code de vérification est requis",
+    "sendingEmail": "Envoi de l'e-mail...",
+    "verificationCodeError": "Le code de vérification est incorrect ou a expiré",
+    "creatingAccount": "Création de compte et entreprise en cours, veuillez patienter...",
+    "emailSentError": "L'e-mail n'a pas été envoyé, veuillez vérifier l'adresse e-mail ou l'e-mail est déjà enregistré",
+    "registering": "Inscription en cours, veuillez patienter...",
+    "registerFailed": "Inscription échouée, veuillez réessayer plus tard",
+    "registerSuccess": "Félicitations! Inscription réussie!",
+    "registerSuccessSubtitle": "Veuillez utiliser l'e-mail et le mot de passe enregistrés pour vous connecter au système",
+    "fullName": "Nom et prénom",
+    "requireFullName": "Veuillez entrer votre nom et prénom",
+    "registerErrorFullNameRequired": "Le nom et prénom sont requis",
+    "mobile": "Téléphone",
+    "registerErrorMobileRequired": "Le téléphone est requis"
+  },
+  "userRegister": {
+    "title": "Votre administrateur vous invite à rejoindre l'équipe",
+    "subtitle": "Veuillez utiliser votre e-mail pour vous inscrire et accéder au système",
+    "successTitle": "👋👋Félicitations! Vous êtes sur le point de rejoindre l'équipe suivante:",
+    "joinTeam": "Rejoignez l'équipe...",
+    "joinTeamSuccess": "Rejoignez l'équipe avec succès, veuillez vous connecter au système",
+    "joinTeamFailed": "Rejoignez l'équipe avec succès, veuillez vous connecter au système"
+  }
+} 

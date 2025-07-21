@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Sign-Up",
+    "login": "Sing In",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "next": "Next"
+  },
+  "header": {
+    "products": "Products",
+    "customers": "Customers",
+    "industries": "Industries",
+    "resources": "Resources",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solutions",
+          "links": {
+            "platform": "Platform Overview",
+            "constructionManagement": "Construction Management",
+            "buildingOperations": "Building Operations"
+          }
+        },
+        "capabilities": {
+          "title": "Capabilities",
+          "links": {
+            "plans": "Plans & BIM",
+            "documentManagement": "Document Management",
+            "reporting": "Reporting & Analytics",
+            "schedules": "Schedules",
+            "integrations": "Integrations",
+            "security": "Security & Data Protection"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Visual Documentation",
+          "links": {
+            "siteView": "Site View 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Overview",
+          "links": {
+            "overview": "Customer Overview"
+          }
+        },
+        "segments": {
+          "title": "Customer Segments",
+          "links": {
+            "contractors": "Contractors",
+            "developers": "Developers & Owners",
+            "facilityManagers": "Facility Managers",
+            "specialtyContractors": "Specialty Contractors",
+            "consultancies": "Consultancies",
+            "architects": "Architects"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solutions",
+          "links": {
+            "construction": "Construction",
+            "realEstate": "Real Estate",
+            "facilityManagement": "Facility Management"
+          }
+        },
+        "sectors": {
+          "title": "Sectors",
+          "links": {
+            "retail": "Retail",
+            "infrastructure": "Infrastructure",
+            "hospitality": "Hospitality",
+            "publicSector": "Public Sector",
+            "office": "Office",
+            "industrial": "Industrial",
+            "residential": "Residential"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Resources",
+          "links": {
+            "quickStart": "Quick Start",
+            "helpCenter": "Help Center",
+            "blog": "Blog",
+            "events": "Events",
+            "security": "Security",
+            "academy": "Academy"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Company",
+          "links": {
+            "aboutUs": "About Us",
+            "team": "Team",
+            "press": "Press",
+            "careers": "Careers",
+            "partners": "Partners"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Construction, Facility Management & Real Estate Platform",
+    "subtitle": "Simplify Your Workday",
+    "coreFeatures": "Core Features",
+    "defectManagement": {
+      "title": "Defect Management",
+      "description": "Quickly record and track construction defects to ensure quality"
+    },
+    "documentManagement": {
+      "title": "Document Management",
+      "description": "Centrally store and manage project documents, accessible anytime, anywhere"
+    },
+    "dataReporting": {
+      "title": "Data Reporting",
+      "description": "Automatically generate project reports, track progress in real-time"
+    },
+    "projectManagement": {
+      "title": "Project Management",
+      "description": "Centralize project management to ensure timely completion"
+    },
+    "teamCollaboration": {
+      "title": "Team Collaboration",
+      "description": "Promote team collaboration and improve work efficiency"
+    },
+    "mobileAccess": {
+      "title": "Mobile Access",
+      "description": "Access project information anytime, anywhere, improving work efficiency"
+    }
+  },
+  "register": {
+    "title": "Setup Your Account",
+    "subtitle": "30-Day Free Trial",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "requireEmail": "Please enter your email",
+    "requirePassword": "Please enter your password",
+    "requireConfirmPassword": "Please confirm your password",
+    "requireAcceptMarketing": "I agree to the terms and conditions",
+    "confirmMarcketing": "I have read and agree to the user agreement",
+    "register": "Setup",
+    "login": "Login",
+    "registerSuccessMessage": "Setup successfully, please login",
+    "registerErrorEmail": "Email already exists",
+    "registerErrorConfirmPassword": "Passwords do not match",
+    "registerErrorConfirmMarcketing": "Please agree to the terms and conditions",
+    "registerErrorEmailRequired": "Email is required",
+    "registerErrorPasswordRequired": "Password is required",
+    "registerErrorConfirmPasswordRequired": "Confirm password is required",
+    "registerErrorEmailInvalid": "Email is invalid",
+    "querySendEmail": "We will send a verification email to {email}, please login to the email to view the verification email, the verification code in the email can help you complete the registration process",
+    "emailSentSuccess": "Email sent successfully, please login to the email to view the verification email, the verification code in the email can help you complete the registration process",
+    "registerWillComplete": "Register will complete",
+    "registerWillCompleteSubtitle": "Complete company information",
+    "finishCompanyNamePlaceholder": "Please enter the company name",
+    "finishCompanyNameRequired": "Company name is required",
+    "verificationCode": "Verification Code(Please get it from the email)",
+    "verificationCodePlaceholder": "Please enter the verification code",
+    "verificationCodeRequired": "Verification code is required",
+    "sendingEmail": "Sending email...",
+    "verificationCodeError": "Verification code error or expired",
+    "creatingAccount": "Creating account and company, please wait...",
+    "emailSentError": "Email sent failed, please check the email address or the email has been registered",
+    "registering": "Registering, please wait...",
+    "registerFailed": "Register failed, please try again later",
+    "registerSuccess": "Congratulations! Registration successful!",
+    "registerSuccessSubtitle": "Please use the registered email and password to login to the system",
+    "fullName": "Full Name",
+    "requireFullName": "Please enter your full name",
+    "registerErrorFullNameRequired": "Full name is required",
+    "mobile": "Mobile",
+    "registerErrorMobileRequired": "Mobile is required"
+  },
+  "userRegister": {
+    "title": "Your administrator invites you to join the team",
+    "subtitle": "Please use your email to register and login to the system",
+    "successTitle": "👋👋Congratulations! You are about to join the following team:",
+    "joinTeam": "Joining team...",
+    "joinTeamSuccess": "Join team successfully, please login to the system",
+    "joinTeamFailed": "Join team failed, please try again later"
+  }
+} 

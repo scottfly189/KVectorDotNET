@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 项目结构说明
+
+## 项目主要目录结构
+本项目的主要代码位于 [lib/](mdc:lib) 目录下，结构如下：
+- [lib/main.dart](mdc:lib/main.dart)：应用入口文件。
+- [lib/global.dart](mdc:lib/global.dart)：全局变量与配置。
+- [lib/pages/](mdc:lib/pages)：页面相关代码，按功能模块细分子目录（如 home、job、report 等）。
+- [lib/utils/](mdc:lib/utils)：工具类与通用方法。
+- [lib/services/](mdc:lib/services)：服务类，处理数据存储、用户配置等。
+- [lib/controllers/](mdc:lib/controllers)：存放全局的控制器类，管理应用全局状态,每个页面的控制器放页面的目录。
+- [lib/routes/](mdc:lib/routes)：路由配置。
+- [lib/config/](mdc:lib/config)：网络等配置信息。
+- [lib/l10n/](mdc:lib/l10n)：国际化资源文件（.arb）。
+- [lib/generated/](mdc:lib/generated)：自动生成的国际化相关代码。
+
+建议在开发和查找功能时，优先从 lib 目录及其子目录入手。

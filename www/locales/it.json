@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Registrati",
+    "login": "Accedi",
+    "ok": "OK",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "next": "Avanti"
+  },
+  "header": {
+    "products": "Prodotti",
+    "customers": "Clienti",
+    "industries": "Settori",
+    "resources": "Risorse",
+    "about": "Chi siamo",
+    "pricing": "Prezzi",
+    "contact": "Contatti",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Soluzioni",
+          "links": {
+            "platform": "Panoramica della piattaforma",
+            "constructionManagement": "Gestione delle costruzioni",
+            "buildingOperations": "Operazioni edilizie"
+          }
+        },
+        "capabilities": {
+          "title": "Funzionalità",
+          "links": {
+            "plans": "Piani e BIM",
+            "documentManagement": "Gestione documentale",
+            "reporting": "Reportistica e analisi",
+            "schedules": "Pianificazioni",
+            "integrations": "Integrazioni",
+            "security": "Sicurezza e protezione dei dati"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Documentazione visiva",
+          "links": {
+            "siteView": "Vista del cantiere a 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Panoramica",
+          "links": {
+            "overview": "Panoramica clienti"
+          }
+        },
+        "segments": {
+          "title": "Segmenti di clientela",
+          "links": {
+            "contractors": "Appaltatori",
+            "developers": "Sviluppatori e proprietari",
+            "facilityManagers": "Facility manager",
+            "specialtyContractors": "Appaltatori specializzati",
+            "consultancies": "Società di consulenza",
+            "architects": "Architetti"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Soluzioni",
+          "links": {
+            "construction": "Costruzione",
+            "realEstate": "Immobiliare",
+            "facilityManagement": "Facility management"
+          }
+        },
+        "sectors": {
+          "title": "Settori",
+          "links": {
+            "retail": "Vendita al dettaglio",
+            "infrastructure": "Infrastrutture",
+            "hospitality": "Ospitalità",
+            "publicSector": "Settore pubblico",
+            "office": "Ufficio",
+            "industrial": "Industriale",
+            "residential": "Residenziale"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Risorse",
+          "links": {
+            "quickStart": "Avvio rapido",
+            "helpCenter": "Centro assistenza",
+            "blog": "Blog",
+            "events": "Eventi",
+            "security": "Sicurezza",
+            "academy": "Accademia"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Azienda",
+          "links": {
+            "aboutUs": "Chi siamo",
+            "team": "Team",
+            "press": "Stampa",
+            "careers": "Carriere",
+            "partners": "Partner"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Piattaforma di Costruzione, Facility Management e Immobiliare",
+    "subtitle": "Semplifica la tua giornata lavorativa",
+    "coreFeatures": "Funzionalità principali",
+    "defectManagement": {
+      "title": "Gestione dei difetti",
+      "description": "Registra e monitora rapidamente i difetti di costruzione per garantire la qualità"
+    },
+    "documentManagement": {
+      "title": "Gestione documentale",
+      "description": "Archivia e gestisci centralmente i documenti di progetto, accessibili in qualsiasi momento e ovunque"
+    },
+    "dataReporting": {
+      "title": "Reportistica dati",
+      "description": "Genera automaticamente report di progetto, monitora i progressi in tempo reale"
+    },
+    "projectManagement": {
+      "title": "Gestione progetto",
+      "description": "Centralizza la gestione del progetto per garantire la conclusione in tempo"
+    },
+    "teamCollaboration": {
+      "title": "Collaborazione team",
+      "description": "Fornisci supporto alla collaborazione tra i membri del team e migliora la produttività del lavoro"
+    },
+    "mobileAccess": {
+      "title": "Accesso mobile",
+      "description": "Accedi alle informazioni del progetto in qualsiasi momento e in qualsiasi luogo, migliorando la produttività del lavoro"
+    }
+  },
+  "register": {
+    "title": "Configura il tuo account",
+    "subtitle": "Prova gratuita di 30 giorni",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Conferma Password",
+    "requireEmail": "Inserisci la tua email",
+    "requirePassword": "Inserisci la tua password",
+    "requireConfirmPassword": "Conferma la tua password",
+    "requireAcceptMarketing": "Accetto i termini e le condizioni",
+    "confirmMarcketing": "Ho letto e accetto l'accordo utente",
+    "register": "Configura",
+    "login": "Accedi",
+    "registerSuccessMessage": "Configurazione completata con successo, effettua il login",
+    "registerErrorEmail": "Email già esistente",
+    "registerErrorConfirmPassword": "Le password non corrispondono",
+    "registerErrorConfirmMarcketing": "Accetta i termini e le condizioni",
+    "registerErrorEmailRequired": "Email obbligatoria",
+    "registerErrorPasswordRequired": "Password obbligatoria",
+    "registerErrorConfirmPasswordRequired": "Conferma password obbligatoria",
+    "registerErrorEmailInvalid": "Email non valida",
+    "querySendEmail": "Ti invitiamo a creare un account su {email}, per completare il processo di registrazione, ti invitiamo a verificare la tua email",
+    "emailSentSuccess": "Email inviata con successo, per completare il processo di registrazione, ti invitiamo a verificare la tua email",
+    "registerWillComplete": "Registrazione in corso",
+    "registerWillCompleteSubtitle": "Completa le informazioni dell'azienda",
+    "finishCompanyNamePlaceholder": "Inserisci il nome dell'azienda",
+    "finishCompanyNameRequired": "Nome dell'azienda obbligatorio",
+    "verificationCode": "Codice di verifica(Per favore, ottieni il codice di verifica dall'email)",
+    "verificationCodePlaceholder": "Inserisci il codice di verifica",
+    "verificationCodeRequired": "Codice di verifica obbligatorio",
+    "sendingEmail": "Invio email...",
+    "verificationCodeError": "Codice di verifica non valido o scaduto",
+    "creatingAccount": "Creazione account e azienda in corso, per favore attendi...",
+    "emailSentError": "Email non inviata, per favore verifica l'indirizzo email o l'email è già registrata",
+    "registering": "Registrazione in corso, per favore attendi...",
+    "registerFailed": "Registrazione fallita, per favore riprova più tardi",
+    "registerSuccess": "Congratulazioni! Registrazione completata!",
+    "registerSuccessSubtitle": "Per favore, usa l'email e la password registrata per accedere al sistema",
+    "fullName": "Nome e cognome",
+    "requireFullName": "Per favore, inserisci il tuo nome e cognome",
+    "registerErrorFullNameRequired": "Nome e cognome sono obbligatori",
+    "mobile": "Telefono",
+    "registerErrorMobileRequired": "Telefono obbligatorio"
+  },
+  "userRegister": {
+    "title": "Il tuo amministratore ti ha invitato a unirevi al team",
+    "subtitle": "Per favore, usa la tua email per registrarti e accedere al sistema",
+    "successTitle": "👋👋Congratulazioni! Stai per unirevi al seguente team:",
+    "joinTeam": "Unendo team...",
+    "joinTeamSuccess": "Unione team completata, per favore accedi al sistema",
+    "joinTeamFailed": "Unione team fallita, per favore riprova più tardi"
+  }
+} 

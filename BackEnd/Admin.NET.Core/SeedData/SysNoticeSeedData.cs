@@ -20,7 +20,7 @@ public class SysNoticeSeedData : ISqlSugarEntitySeedData<SysNotice>
     {
         return
         [
-            new SysNotice{ Id=1300000000101, Title="欢迎使用 Admin.NET 通用权限开发框架 <a href=\"https://gitee.com/zuohuaijun/Admin.NET\" target=\"_blank\">https://gitee.com/zuohuaijun/Admin.NET</a>", Content="https://adminnet.top/", CreateTime=DateTime.Parse("2025-03-26 00:00:00"), Status=NoticeStatusEnum.PUBLIC },
+            new SysNotice{ Id=1300000000101, Title="Welcome to KVectorDotNet universal permissions, artificial intelligence, and international development framework <a href=\"https://github.com/scottfly189/KVectorDotNet\" target=\"_blank\">https://github.com/scottfly189/KVectorDotNet</a>", Content="https://github.com/scottfly189/KVectorDotNet", CreateTime=DateTime.Parse("2025-03-26 00:00:00"), Status=NoticeStatusEnum.PUBLIC },
         ];
     }
 }

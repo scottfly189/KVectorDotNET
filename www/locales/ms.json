@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Daftar",
+    "login": "Log Masuk",
+    "ok": "OK",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "next": "Selanjutnya"
+  },
+  "header": {
+    "products": "Produk",
+    "customers": "Pelanggan",
+    "industries": "Industri",
+    "resources": "Sumber",
+    "about": "Tentang Kami",
+    "pricing": "Harga",
+    "contact": "Hubungi Kami",
+    "trial": "Percubaan Percuma 30 Hari",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Penyelesaian",
+          "links": {
+            "platform": "Gambaran Keseluruhan Platform",
+            "constructionManagement": "Pengurusan Pembinaan",
+            "buildingOperations": "Operasi Bangunan"
+          }
+        },
+        "capabilities": {
+          "title": "Keupayaan",
+          "links": {
+            "plans": "Pelan & BIM",
+            "documentManagement": "Pengurusan Dokumen",
+            "reporting": "Pelaporan & Analitik",
+            "schedules": "Jadual",
+            "integrations": "Integrasi",
+            "security": "Keselamatan & Perlindungan Data"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Dokumentasi Visual",
+          "links": {
+            "siteView": "Paparan Tapak 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Gambaran Keseluruhan",
+          "links": {
+            "overview": "Gambaran Keseluruhan Pelanggan"
+          }
+        },
+        "segments": {
+          "title": "Segmen Pelanggan",
+          "links": {
+            "contractors": "Kontraktor",
+            "developers": "Pemaju & Pemilik",
+            "facilityManagers": "Pengurus Kemudahan",
+            "specialtyContractors": "Kontraktor Khusus",
+            "consultancies": "Perunding",
+            "architects": "Arkitek"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Penyelesaian",
+          "links": {
+            "construction": "Pembinaan",
+            "realEstate": "Hartanah",
+            "facilityManagement": "Pengurusan Kemudahan"
+          }
+        },
+        "sectors": {
+          "title": "Sektor",
+          "links": {
+            "retail": "Peruncitan",
+            "infrastructure": "Infrastruktur",
+            "hospitality": "Hospitaliti",
+            "publicSector": "Sektor Awam",
+            "office": "Pejabat",
+            "industrial": "Perindustrian",
+            "residential": "Kediaman"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Sumber",
+          "links": {
+            "quickStart": "Permulaan Pantas",
+            "helpCenter": "Pusat Bantuan",
+            "blog": "Blog",
+            "events": "Acara",
+            "security": "Keselamatan",
+            "academy": "Akademi"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Syarikat",
+          "links": {
+            "aboutUs": "Tentang Kami",
+            "team": "Pasukan",
+            "press": "Media",
+            "careers": "Kerjaya",
+            "partners": "Rakan Kongsi"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Platform Pembinaan, Pengurusan Kemudahan & Hartanah",
+    "subtitle": "Permudahkan Hari Kerja Anda",
+    "coreFeatures": "Ciri-ciri Utama",
+    "defectManagement": {
+      "title": "Pengurusan Kecacatan",
+      "description": "Rekod dan jejak kecacatan pembinaan dengan cepat untuk memastikan kualiti"
+    },
+    "documentManagement": {
+      "title": "Pengurusan Dokumen",
+      "description": "Simpan dan urus dokumen projek secara berpusat, boleh diakses pada bila-bila masa, di mana sahaja"
+    },
+    "dataReporting": {
+      "title": "Pelaporan Data",
+      "description": "Jana laporan projek secara automatik, jejak kemajuan dalam masa nyata"
+    },
+    "projectManagement": {
+      "title": "Pengurusan Projek",
+      "description": "Kelola projek secara berpusat untuk memastikan penyelesaian tepat waktu"
+    },
+    "teamCollaboration": {
+      "title": "Kerjasama Tim",
+      "description": "Foster kerjasama dalam tim Anda dan meningkatkan produktivitas kerja"
+    },
+    "mobileAccess": {
+      "title": "Akses Mobile",
+      "description": "Akses informasi projek kapan saja dan di mana sahaja, meningkatkan produktivitas kerja"
+    }
+  },
+  "register": {
+    "title": "Sediakan Akaun Anda",
+    "subtitle": "Percubaan Percuma 30 Hari",
+    "email": "E-mel",
+    "password": "Kata Laluan",
+    "confirmPassword": "Sahkan Kata Laluan",
+    "requireEmail": "Sila masukkan e-mel anda",
+    "requirePassword": "Sila masukkan kata laluan anda",
+    "requireConfirmPassword": "Sila sahkan kata laluan anda",
+    "requireAcceptMarketing": "Saya bersetuju dengan terma dan syarat",
+    "confirmMarcketing": "Saya telah membaca dan bersetuju dengan perjanjian pengguna",
+    "register": "Sediakan",
+    "login": "Log Masuk",
+    "registerSuccessMessage": "Berjaya disediakan, sila log masuk",
+    "registerErrorEmail": "E-mel sudah wujud",
+    "registerErrorConfirmPassword": "Kata laluan tidak sepadan",
+    "registerErrorConfirmMarcketing": "Sila setuju dengan terma dan syarat",
+    "registerErrorEmailRequired": "E-mel diperlukan",
+    "registerErrorPasswordRequired": "Kata laluan diperlukan",
+    "registerErrorConfirmPasswordRequired": "Pengesahan kata laluan diperlukan",
+    "registerErrorEmailInvalid": "E-mel tidak sah",
+    "querySendEmail": "Kami akan mengirim e-mel pengesahan kepada {email}, sila log masuk ke e-mel untuk melihat e-mel pengesahan, kod pengesahan dalam e-mel boleh membantu Anda menyelesaikan proses pendaftaran",
+    "emailSentSuccess": "E-mel pengesahan berjaya dikirim, sila log masuk ke e-mel untuk melihat e-mel pengesahan, kod pengesahan dalam e-mel boleh membantu Anda menyelesaikan proses pendaftaran",
+    "registerWillComplete": "Pendaftaran akan selesai",
+    "registerWillCompleteSubtitle": "Masukkan maklumat syarikat",
+    "finishCompanyNamePlaceholder": "Masukkan nama syarikat",
+    "finishCompanyNameRequired": "Nama syarikat diperlukan",
+    "verificationCode": "Kod Pengesahan(Sila dapatkan dari e-mel)",
+    "verificationCodePlaceholder": "Masukkan kod pengesahan",
+    "verificationCodeRequired": "Kod pengesahan diperlukan",
+    "sendingEmail": "Mengirim e-mel...",
+    "verificationCodeError": "Kod pengesahan tidak sah atau sudah kadaluarsa",
+    "creatingAccount": "Membuat akaun dan syarikat, sila tunggu...",
+    "emailSentError": "E-mel tidak dapat dikirim, silakan periksa alamat email atau email sudah terdaftar",
+    "registering": "Pendaftaran, silakan tunggu...",
+    "registerFailed": "Pendaftaran gagal, silakan coba lagi nanti",
+    "registerSuccess": "Berjaya! Pendaftaran berhasil!",
+    "registerSuccessSubtitle": "Silakan gunakan email dan kata sandi yang terdaftar untuk login ke sistem",
+    "fullName": "Nama Lengkap",
+    "requireFullName": "Silakan masukkan nama lengkap Anda",
+    "registerErrorFullNameRequired": "Nama lengkap diperlukan",
+    "mobile": "Nombor Telefon",
+    "registerErrorMobileRequired": "Nombor telefon diperlukan"
+  },
+  "userRegister": {
+    "title": "Sediakan Akaun Anda",
+    "subtitle": "Percubaan Percuma 30 Hari",
+    "successTitle": "👋👋Selamat! Anda akan bergabung dengan tim berikut:",
+    "joinTeam": "Bergabung dengan tim...",
+    "joinTeamSuccess": "Bergabung dengan tim berhasil, silakan login ke sistem",
+    "joinTeamFailed": "Bergabung dengan tim gagal, silakan coba lagi nanti"
+  }
+}

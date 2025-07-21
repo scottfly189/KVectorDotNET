@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Registrar-se",
+    "login": "Entrar",
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "next": "Próximo"
+  },
+  "header": {
+    "products": "Produtos",
+    "customers": "Clientes",
+    "industries": "Indústrias",
+    "resources": "Recursos",
+    "about": "Sobre",
+    "pricing": "Preços",
+    "contact": "Contato",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Soluções",
+          "links": {
+            "platform": "Visão geral da plataforma",
+            "constructionManagement": "Gestão de construção",
+            "buildingOperations": "Operações de edifícios"
+          }
+        },
+        "capabilities": {
+          "title": "Capacidades",
+          "links": {
+            "plans": "Plantas e BIM",
+            "documentManagement": "Gestão de documentos",
+            "reporting": "Relatórios e análises",
+            "schedules": "Cronogramas",
+            "integrations": "Integrações",
+            "security": "Segurança e proteção de dados"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Documentação visual",
+          "links": {
+            "siteView": "Visualização do local 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Visão geral",
+          "links": {
+            "overview": "Visão geral de clientes"
+          }
+        },
+        "segments": {
+          "title": "Segmentos de clientes",
+          "links": {
+            "contractors": "Empreiteiros",
+            "developers": "Desenvolvedores e proprietários",
+            "facilityManagers": "Gestores de instalações",
+            "specialtyContractors": "Empreiteiros especializados",
+            "consultancies": "Consultorias",
+            "architects": "Arquitetos"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Soluções",
+          "links": {
+            "construction": "Construção",
+            "realEstate": "Imobiliário",
+            "facilityManagement": "Gestão de instalações"
+          }
+        },
+        "sectors": {
+          "title": "Setores",
+          "links": {
+            "retail": "Varejo",
+            "infrastructure": "Infraestrutura",
+            "hospitality": "Hotelaria",
+            "publicSector": "Setor público",
+            "office": "Escritório",
+            "industrial": "Industrial",
+            "residential": "Residencial"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Recursos",
+          "links": {
+            "quickStart": "Início rápido",
+            "helpCenter": "Centro de ajuda",
+            "blog": "Blog",
+            "events": "Eventos",
+            "security": "Segurança",
+            "academy": "Academia"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Empresa",
+          "links": {
+            "aboutUs": "Sobre nós",
+            "team": "Equipe",
+            "press": "Imprensa",
+            "careers": "Carreiras",
+            "partners": "Parceiros"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Plataforma de Construção, Gestão de Instalações e Imobiliária",
+    "subtitle": "Simplifique seu dia de trabalho",
+    "coreFeatures": "Recursos principais",
+    "defectManagement": {
+      "title": "Gestão de defeitos",
+      "description": "Registre e acompanhe rapidamente os defeitos de construção para garantir a qualidade"
+    },
+    "documentManagement": {
+      "title": "Gestão de documentos",
+      "description": "Armazene e gerencie centralmente os documentos do projeto, acessíveis a qualquer hora e em qualquer lugar"
+    },
+    "dataReporting": {
+      "title": "Relatórios de dados",
+      "description": "Gere automaticamente relatórios de projetos, acompanhe o progresso em tempo real"
+    },
+    "projectManagement": {
+      "title": "Gestão de projetos",
+      "description": "Centralize a gestão de projetos para garantir a conclusão no prazo"
+    },
+    "teamCollaboration": {
+      "title": "Colaboração de equipa",
+      "description": "Promova a colaboração na sua equipa e aumente a eficiência do trabalho"
+    },
+    "mobileAccess": {
+      "title": "Acesso móvel",
+      "description": "Acesse as informações do projeto em qualquer momento e em qualquer lugar, aumentando a eficiência do trabalho"
+    }
+  },
+  "register": {
+    "title": "Configure Sua Conta",
+    "subtitle": "Teste Gratuito de 30 Dias",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "requireEmail": "Por favor, insira seu e-mail",
+    "requirePassword": "Por favor, insira sua senha",
+    "requireConfirmPassword": "Por favor, confirme sua senha",
+    "requireAcceptMarketing": "Eu concordo com os termos e condições",
+    "confirmMarcketing": "Eu li e concordo com o contrato do usuário",
+    "register": "Configurar",
+    "login": "Entrar",
+    "registerSuccessMessage": "Configuração bem-sucedida, por favor faça login",
+    "registerErrorEmail": "E-mail já existe",
+    "registerErrorConfirmPassword": "As senhas não coincidem",
+    "registerErrorConfirmMarcketing": "Por favor, concorde com os termos e condições",
+    "registerErrorEmailRequired": "E-mail é obrigatório",
+    "registerErrorPasswordRequired": "Senha é obrigatória",
+    "registerErrorConfirmPasswordRequired": "Confirmação de senha é obrigatória",
+    "registerErrorEmailInvalid": "E-mail é inválido",
+    "querySendEmail": "Vamos enviar um e-mail de verificação para {email}, por favor faça login no e-mail para ver o e-mail de verificação, o código de verificação no e-mail pode ajudar a completar o processo de registro",
+    "emailSentSuccess": "E-mail enviado com sucesso, por favor faça login no e-mail para ver o e-mail de verificação, o código de verificação no e-mail pode ajudar a completar o processo de registro",
+    "registerWillComplete": "Registro será concluído",
+    "registerWillCompleteSubtitle": "Complete as informações da empresa",
+    "finishCompanyNamePlaceholder": "Por favor, insira o nome da empresa",
+    "finishCompanyNameRequired": "O nome da empresa é obrigatório",
+    "verificationCode": "Código de verificação(Por favor, obtenha o código de verificação do e-mail)",
+    "verificationCodePlaceholder": "Por favor, insira o código de verificação",
+    "verificationCodeRequired": "O código de verificação é obrigatório",
+    "sendingEmail": "Enviando e-mail...",
+    "verificationCodeError": "O código de verificação é inválido ou expirado",
+    "creatingAccount": "Criando conta e empresa, por favor aguarde...",
+    "emailSentError": "E-mail não enviado, por favor verifique o endereço de e-mail ou o e-mail já está registrado",
+    "registering": "Registrando, por favor aguarde...",
+    "registerFailed": "Registro não foi concluído, por favor tente novamente mais tarde",
+    "registerSuccess": "Registro concluído com sucesso!",
+    "registerSuccessSubtitle": "Por favor, use o e-mail e a senha registrados para fazer login no sistema",
+    "fullName": "Nome completo",
+    "requireFullName": "Por favor, insira seu nome completo",
+    "registerErrorFullNameRequired": "Nome completo é obrigatório",
+    "mobile": "Telefone",
+    "registerErrorMobileRequired": "Telefone é obrigatório"
+  },
+  "userRegister": {
+    "title": "Seu administrador convidou você para se juntar ao time",
+    "subtitle": "Por favor, use seu e-mail para se registrar e acessar o sistema",
+    "successTitle": "👋👋Parabéns! Você está prestes a se juntar ao seguinte time:",
+    "joinTeam": "Juntando time...",
+    "joinTeamSuccess": "Juntando time com sucesso, por favor faça login no sistema",
+    "joinTeamFailed": "Juntando time com sucesso, por favor faça login no sistema"
+  }
+} 
