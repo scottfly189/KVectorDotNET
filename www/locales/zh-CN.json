@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "注册",
+    "login": "登录",
+    "ok": "确定",
+    "cancel": "取消",
+    "confirm": "确认",
+    "next": "下一步"
+  },
+  "header": {
+    "products": "产品",
+    "customers": "客户",
+    "industries": "行业",
+    "resources": "资源",
+    "about": "关于",
+    "pricing": "价格",
+    "contact": "联系",
+    "trial": "30天免费试用",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "解决方案",
+          "links": {
+            "platform": "平台概览",
+            "constructionManagement": "建筑管理",
+            "buildingOperations": "建筑运营"
+          }
+        },
+        "capabilities": {
+          "title": "平台功能",
+          "links": {
+            "plans": "图纸和BIM模型",
+            "documentManagement": "文档管理",
+            "reporting": "报告与分析",
+            "schedules": "进度计划",
+            "integrations": "集成",
+            "security": "安全与数据保护"
+          }
+        },
+        "visualDocumentation": {
+          "title": "可视化文档",
+          "links": {
+            "siteView": "现场360°实景"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "概览",
+          "links": {
+            "overview": "客户概览"
+          }
+        },
+        "segments": {
+          "title": "客户群体",
+          "links": {
+            "contractors": "建筑承包商",
+            "developers": "开发商与业主",
+            "facilityManagers": "设施管理者",
+            "specialtyContractors": "专业承包商",
+            "consultancies": "建筑咨询公司",
+            "architects": "建筑师"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "解决方案",
+          "links": {
+            "construction": "建筑",
+            "realEstate": "房地产",
+            "facilityManagement": "设施管理"
+          }
+        },
+        "sectors": {
+          "title": "行业领域",
+          "links": {
+            "retail": "零售",
+            "infrastructure": "基础设施",
+            "hospitality": "酒店管理",
+            "publicSector": "公共部门",
+            "office": "办公",
+            "industrial": "工业",
+            "residential": "住宅"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "资源",
+          "links": {
+            "quickStart": "快速入门",
+            "helpCenter": "帮助中心",
+            "blog": "博客",
+            "events": "活动",
+            "security": "安全与数据保护",
+            "academy": "学院"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "公司",
+          "links": {
+            "aboutUs": "关于我们",
+            "team": "团队",
+            "press": "新闻",
+            "careers": "招聘",
+            "partners": "合作伙伴"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "建筑、设施管理与房地产平台",
+    "subtitle": "简化您的工作日",
+    "coreFeatures": "核心功能",
+    "defectManagement": {
+      "title": "缺陷管理",
+      "description": "快速记录和跟踪施工缺陷，确保工程质量"
+    },
+    "documentManagement": {
+      "title": "文档管理",
+      "description": "集中存储和管理项目文档，随时随地访问"
+    },
+    "dataReporting": {
+      "title": "数据报告",
+      "description": "自动生成项目报告，实时掌握项目进度"
+    },
+    "projectManagement": {
+      "title": "项目管理",
+      "description": "集中管理项目，确保项目按时完成"
+    },
+    "teamCollaboration": {
+      "title": "团队协作",
+      "description": "促进团队协作，提高工作效率"
+    },
+    "mobileAccess": {
+      "title": "移动访问",
+      "description": "随时随地访问项目信息，提高工作效率"
+    }
+  },
+  "register": {
+    "title": "注册",
+    "subtitle": "30天试用",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "requireEmail": "请输入邮箱",
+    "requirePassword": "请输入密码",
+    "requireConfirmPassword": "确认密码",
+    "requireAcceptMarketing": "同意协议",
+    "confirmMarcketing": "我已阅读并同意用户协议",
+    "register": "注册",
+    "login": "登录",
+    "registerSuccessMessage": "注册成功，请登录",
+    "registerErrorEmail": "邮箱已存在",
+    "registerErrorConfirmPassword": "密码不一致",
+    "registerErrorConfirmMarcketing": "请同意协议",
+    "registerErrorEmailRequired": "邮箱不能为空",
+    "registerErrorPasswordRequired": "密码不能为空",
+    "registerErrorConfirmPasswordRequired": "确认密码不能为空",
+    "registerErrorEmailInvalid": "邮箱格式不正确",
+    "querySendEmail": "我们将向{email}发送验证邮件,请登录邮箱查看验证邮件，邮件中的验证码可以帮您完成后面的注册流程",
+    "emailSentSuccess": "邮件发送成功，请登录邮箱查看验证邮件，邮件中的验证码可以帮您完成后面的注册流程",
+    "registerWillComplete": "即将注册完成",
+    "registerWillCompleteSubtitle": "完成企业信息",
+    "finishCompanyNamePlaceholder": "请输入企业名称",
+    "finishCompanyNameRequired": "企业名称不能为空",
+    "verificationCode": "验证码(请从邮箱中获取)",
+    "verificationCodePlaceholder": "请输入验证码",
+    "verificationCodeRequired": "验证码不能为空",
+    "sendingEmail": "发送邮件中...",
+    "verificationCodeError": "验证码错误或者验证码已过期",
+    "creatingAccount": "创建账户与企业中，请稍候...",
+    "emailSentError": "邮件发送失败，请检查邮箱是否正确或者邮箱是否已经注册",
+    "registering": "注册中，请稍候...",
+    "registerFailed": "注册失败，请稍候再试",
+    "registerSuccess": "恭喜！注册成功！",
+    "registerSuccessSubtitle": "请用注册的邮箱和密码登录系统",
+    "fullName": "姓名",
+    "requireFullName": "请输入姓名",
+    "registerErrorFullNameRequired": "姓名不能为空",
+    "mobile": "手机号",
+    "registerErrorMobileRequired": "手机号不能为空"
+  },
+  "userRegister": {
+    "title": "您的管理员邀请你加入团队",
+    "subtitle": "请用自己的邮箱注册后登录系统",
+    "successTitle": "👋👋恭喜！您即将加入下面的团队:",
+    "joinTeam": "正在加入团队中...",
+    "joinTeamSuccess": "加入团队成功，请登录系统",
+    "joinTeamFailed": "加入团队失败，请稍候再试"
+  }
+} 

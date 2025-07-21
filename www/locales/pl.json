@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Zarejestruj się",
+    "login": "Zaloguj się",
+    "ok": "OK",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "next": "Dalej"
+  },
+  "header": {
+    "products": "Produkty",
+    "customers": "Klienci",
+    "industries": "Branże",
+    "resources": "Zasoby",
+    "about": "O nas",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Rozwiązania",
+          "links": {
+            "platform": "Przegląd platformy",
+            "constructionManagement": "Zarządzanie budową",
+            "buildingOperations": "Operacje budowlane"
+          }
+        },
+        "capabilities": {
+          "title": "Możliwości",
+          "links": {
+            "plans": "Plany i BIM",
+            "documentManagement": "Zarządzanie dokumentami",
+            "reporting": "Raportowanie i analityka",
+            "schedules": "Harmonogramy",
+            "integrations": "Integracje",
+            "security": "Bezpieczeństwo i ochrona danych"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Dokumentacja wizualna",
+          "links": {
+            "siteView": "Widok placu budowy 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Przegląd",
+          "links": {
+            "overview": "Przegląd klientów"
+          }
+        },
+        "segments": {
+          "title": "Segmenty klientów",
+          "links": {
+            "contractors": "Wykonawcy",
+            "developers": "Deweloperzy i właściciele",
+            "facilityManagers": "Zarządcy obiektów",
+            "specialtyContractors": "Wykonawcy specjalistyczni",
+            "consultancies": "Firmy doradcze",
+            "architects": "Architekci"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Rozwiązania",
+          "links": {
+            "construction": "Budownictwo",
+            "realEstate": "Nieruchomości",
+            "facilityManagement": "Zarządzanie obiektami"
+          }
+        },
+        "sectors": {
+          "title": "Sektory",
+          "links": {
+            "retail": "Handel detaliczny",
+            "infrastructure": "Infrastruktura",
+            "hospitality": "Hotelarstwo",
+            "publicSector": "Sektor publiczny",
+            "office": "Biura",
+            "industrial": "Przemysł",
+            "residential": "Budownictwo mieszkaniowe"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Zasoby",
+          "links": {
+            "quickStart": "Szybki start",
+            "helpCenter": "Centrum pomocy",
+            "blog": "Blog",
+            "events": "Wydarzenia",
+            "security": "Bezpieczeństwo",
+            "academy": "Akademia"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Firma",
+          "links": {
+            "aboutUs": "O nas",
+            "team": "Zespół",
+            "press": "Prasa",
+            "careers": "Kariera",
+            "partners": "Partnerzy"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Platforma budowlana, zarządzania obiektami i nieruchomościami",
+    "subtitle": "Uprość swój dzień pracy",
+    "coreFeatures": "Główne funkcje",
+    "defectManagement": {
+      "title": "Zarządzanie usterkami",
+      "description": "Szybko rejestruj i śledź usterki budowlane, aby zapewnić jakość"
+    },
+    "documentManagement": {
+      "title": "Zarządzanie dokumentami",
+      "description": "Centralnie przechowuj i zarządzaj dokumentami projektowymi, dostępnymi w dowolnym miejscu i czasie"
+    },
+    "dataReporting": {
+      "title": "Raportowanie danych",
+      "description": "Automatycznie generuj raporty projektowe, śledź postępy w czasie rzeczywistym"
+    },  
+    "projectManagement": {
+      "title": "Zarządzanie projektami",
+      "description": "Centralnie zarządzaj projektami, aby zapewnić ich terminowe zakończenie"
+    },
+    "teamCollaboration": {
+      "title": "Współpraca w zespole",
+      "description": "Wspieraj współpracę w swoim zespole i popraw efektywność pracy"
+    },
+    "mobileAccess": {
+      "title": "Mobilny dostęp",
+      "description": "Dostęp do informacji o projekcie w dowolnym miejscu i czasie, poprawiając efektywność pracy"
+    }
+  },
+  "register": {
+    "title": "Utwórz swoje konto",
+    "subtitle": "30-dniowa wersja próbna",
+    "email": "Email",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "requireEmail": "Proszę podać swój email",
+    "requirePassword": "Proszę podać hasło",
+    "requireConfirmPassword": "Proszę potwierdzić hasło",
+    "requireAcceptMarketing": "Zgadzam się z warunkami",
+    "confirmMarcketing": "Przeczytałem i akceptuję umowę użytkownika",
+    "register": "Utwórz konto",
+    "login": "Zaloguj się",
+    "registerSuccessMessage": "Konto utworzone pomyślnie, proszę się zalogować",
+    "registerErrorEmail": "Email już istnieje",
+    "registerErrorConfirmPassword": "Hasła nie są zgodne",
+    "registerErrorConfirmMarcketing": "Proszę zaakceptować warunki",
+    "registerErrorEmailRequired": "Email jest wymagany",
+    "registerErrorPasswordRequired": "Hasło jest wymagane",
+    "registerErrorConfirmPasswordRequired": "Potwierdzenie hasła jest wymagane",
+    "registerErrorEmailInvalid": "Email jest nieprawidłowy",
+    "querySendEmail": "Wysyłamy email potwierdzający do {email}, proszę się zalogować na email, aby zobaczyć email potwierdzający, kod w emailu może pomóc w ukończeniu procesu rejestracji",
+    "emailSentSuccess": "Email wysłany pomyślnie, proszę się zalogować na email, aby zobaczyć email potwierdzający, kod w emailu może pomóc w ukończeniu procesu rejestracji",
+    "registerWillComplete": "Rejestracja zostanie ukończona",
+    "registerWillCompleteSubtitle": "Wprowadź informacje o firmie",
+    "finishCompanyNamePlaceholder": "Wprowadź nazwę firmy",
+    "finishCompanyNameRequired": "Nazwa firmy jest wymagana",
+    "verificationCode": "Kod weryfikacyjny(Proszę go pobrać z emaila)",
+    "verificationCodePlaceholder": "Wprowadź kod weryfikacyjny",
+    "verificationCodeRequired": "Kod weryfikacyjny jest wymagany",
+    "sendingEmail": "Wysyłanie email...",
+    "verificationCodeError": "Kod weryfikacyjny jest nieprawidłowy lub wygasł",
+    "creatingAccount": "Tworzenie konta i firmy, proszę czekać...",
+    "emailSentError": "Email nie został wysłany, proszę sprawdzić adres email lub email jest już zarejestrowany",
+    "registering": "Rejestrując, proszę czekać...",
+    "registerFailed": "Rejestracja nie powiodła się, proszę spróbować ponownie później",
+    "registerSuccess": "Gratulacje! Rejestracja powiodła się!",
+    "registerSuccessSubtitle": "Proszę użyć zarejestrowanego adresu email i hasła do logowania do systemu",
+    "fullName": "Imię i nazwisko",
+    "requireFullName": "Proszę wprowadzić swoje imię i nazwisko",
+    "registerErrorFullNameRequired": "Imię i nazwisko są wymagane",
+    "mobile": "Telefon",
+    "registerErrorMobileRequired": "Telefon jest wymagany"
+  },
+  "userRegister": {
+    "title": "Twoja administratora zaprasza do dołączenia do zespołu",
+    "subtitle": "Proszę użyć swojego adresu email do rejestracji i logowania do systemu",
+    "successTitle": "👋👋Gratulacje! Jesteś na wyprawie do następnego zespołu:",
+    "joinTeam": "Dołączanie do zespołu...",
+    "joinTeamSuccess": "Dołączenie do zespołu powiodło się, proszę się zalogować do systemu",
+    "joinTeamFailed": "Dołączenie do zespołu nie powiodło się, proszę spróbować ponownie później"
+  }
+}

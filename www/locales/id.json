@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Daftar",
+    "login": "Masuk",
+    "ok": "OK",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "next": "Selanjutnya"
+  },
+  "header": {
+    "products": "Produk",
+    "customers": "Pelanggan",
+    "industries": "Industri",
+    "resources": "Sumber Daya",
+    "about": "Tentang",
+    "pricing": "Harga",
+    "contact": "Kontak",
+    "trial": "Uji Coba Gratis 30 Hari",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solusi",
+          "links": {
+            "platform": "Ikhtisar Platform",
+            "constructionManagement": "Manajemen Konstruksi",
+            "buildingOperations": "Operasi Bangunan"
+          }
+        },
+        "capabilities": {
+          "title": "Kemampuan",
+          "links": {
+            "plans": "Rencana & BIM",
+            "documentManagement": "Manajemen Dokumen",
+            "reporting": "Pelaporan & Analitik",
+            "schedules": "Jadwal",
+            "integrations": "Integrasi",
+            "security": "Keamanan & Perlindungan Data"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Dokumentasi Visual",
+          "links": {
+            "siteView": "Tampilan Lokasi 360°"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Ikhtisar",
+          "links": {
+            "overview": "Ikhtisar Pelanggan"
+          }
+        },
+        "segments": {
+          "title": "Segmen Pelanggan",
+          "links": {
+            "contractors": "Kontraktor",
+            "developers": "Pengembang & Pemilik",
+            "facilityManagers": "Manajer Fasilitas",
+            "specialtyContractors": "Kontraktor Spesialis",
+            "consultancies": "Konsultan",
+            "architects": "Arsitek"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Solusi",
+          "links": {
+            "construction": "Konstruksi",
+            "realEstate": "Real Estate",
+            "facilityManagement": "Manajemen Fasilitas"
+          }
+        },
+        "sectors": {
+          "title": "Sektor",
+          "links": {
+            "retail": "Ritel",
+            "infrastructure": "Infrastruktur",
+            "hospitality": "Perhotelan",
+            "publicSector": "Sektor Publik",
+            "office": "Kantor",
+            "industrial": "Industri",
+            "residential": "Perumahan"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Sumber Daya",
+          "links": {
+            "quickStart": "Mulai Cepat",
+            "helpCenter": "Pusat Bantuan",
+            "blog": "Blog",
+            "events": "Acara",
+            "security": "Keamanan",
+            "academy": "Akademi"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Perusahaan",
+          "links": {
+            "aboutUs": "Tentang Kami",
+            "team": "Tim",
+            "press": "Pers",
+            "careers": "Karir",
+            "partners": "Mitra"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Platform Konstruksi, Manajemen Fasilitas & Real Estate",
+    "subtitle": "Sederhanakan Hari Kerja Anda",
+    "coreFeatures": "Fitur Utama",
+    "defectManagement": {
+      "title": "Manajemen Cacat",
+      "description": "Catat dan lacak cacat konstruksi dengan cepat untuk memastikan kualitas"
+    },
+    "documentManagement": {
+      "title": "Manajemen Dokumen",
+      "description": "Simpan dan kelola dokumen proyek secara terpusat, dapat diakses kapan saja, di mana saja"
+    },
+    "dataReporting": {
+      "title": "Pelaporan Data",
+      "description": "Hasilkan laporan proyek secara otomatis, lacak kemajuan secara real-time"
+    },
+    "projectManagement": {
+      "title": "Manajemen Proyek",
+      "description": "Kelola proyek secara terpusat untuk memastikan penyelesaian tepat waktu"
+    },
+    "teamCollaboration": {
+      "title": "Kolaborasi Tim",
+      "description": "Fosterkan kolaborasi dalam tim Anda dan tingkatkan produktivitas kerja"
+    },
+    "mobileAccess": {
+      "title": "Akses Mobile",
+      "description": "Akses informasi proyek kapan saja dan di mana saja, meningkatkan produktivitas kerja"
+    }
+  },
+  "register": {
+    "title": "Siapkan Akun Anda",
+    "subtitle": "Uji Coba Gratis 30 Hari",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "requireEmail": "Silakan masukkan email Anda",
+    "requirePassword": "Silakan masukkan kata sandi Anda",
+    "requireConfirmPassword": "Silakan konfirmasi kata sandi Anda",
+    "requireAcceptMarketing": "Saya setuju dengan syarat dan ketentuan",
+    "confirmMarcketing": "Saya telah membaca dan menyetujui perjanjian pengguna",
+    "register": "Daftar",
+    "login": "Masuk",
+    "registerSuccessMessage": "Pendaftaran berhasil, silakan masuk",
+    "registerErrorEmail": "Email sudah terdaftar",
+    "registerErrorConfirmPassword": "Kata sandi tidak cocok",
+    "registerErrorConfirmMarcketing": "Silakan setujui syarat dan ketentuan",
+    "registerErrorEmailRequired": "Email diperlukan",
+    "registerErrorPasswordRequired": "Kata sandi diperlukan",
+    "registerErrorConfirmPasswordRequired": "Konfirmasi kata sandi diperlukan",
+    "registerErrorEmailInvalid": "Format email tidak valid",
+    "querySendEmail": "Kami akan mengirim email verifikasi ke {email}, silakan masuk ke email untuk melihat email verifikasi, kode verifikasi dalam email dapat membantu Anda menyelesaikan proses pendaftaran",
+    "emailSentSuccess": "Email verifikasi berhasil dikirim, silakan masuk ke email untuk melihat email verifikasi, kode verifikasi dalam email dapat membantu Anda menyelesaikan proses pendaftaran",
+    "registerWillComplete": "Pendaftaran akan selesai",
+    "registerWillCompleteSubtitle": "Lengkapi informasi perusahaan",
+    "finishCompanyNamePlaceholder": "Silakan masukkan nama perusahaan Anda",
+    "finishCompanyNameRequired": "Nama perusahaan diperlukan",
+    "verificationCode": "Kode Verifikasi(Silakan dapatkan kode verifikasi dari email)",
+    "verificationCodePlaceholder": "Silakan masukkan kode verifikasi",
+    "verificationCodeRequired": "Kode verifikasi diperlukan",
+    "sendingEmail": "Mengirim email...",
+    "verificationCodeError": "Kode verifikasi tidak valid atau sudah kadaluarsa",
+    "creatingAccount": "Membuat akun dan perusahaan, silakan tunggu...",
+    "emailSentError": "Email tidak dapat dikirim, silakan periksa alamat email atau email sudah terdaftar",
+    "registering": "Pendaftaran, silakan tunggu...",
+    "registerFailed": "Pendaftaran gagal, silakan coba lagi nanti",
+    "registerSuccess": "Selamat! Pendaftaran berhasil!",
+    "registerSuccessSubtitle": "Silakan gunakan email dan kata sandi yang terdaftar untuk login ke sistem",
+    "fullName": "Nama Lengkap",
+    "requireFullName": "Silakan masukkan nama lengkap Anda",
+    "registerErrorFullNameRequired": "Nama lengkap diperlukan",
+    "mobile": "Nomor Telepon",
+    "registerErrorMobileRequired": "Nomor telepon diperlukan"
+  },
+  "userRegister": {
+    "title": "Administrator Anda telah mengundang Anda untuk bergabung dengan tim",
+    "subtitle": "Silakan gunakan email Anda untuk mendaftar dan login ke sistem",
+    "successTitle": "👋👋Selamat! Anda akan bergabung dengan tim berikut:",
+    "joinTeam": "Bergabung dengan tim...",
+    "joinTeamSuccess": "Bergabung dengan tim berhasil, silakan login ke sistem",
+    "joinTeamFailed": "Bergabung dengan tim gagal, silakan coba lagi nanti"
+  }
+}

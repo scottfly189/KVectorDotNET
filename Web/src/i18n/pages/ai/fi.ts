@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Keskustelu valmis',
 		thinkingFailed: 'Keskustelu epäonnistui',
 		thinkingPrepare: 'Keskustelu valmistelemassa...',
+		backEndError: 'Virhe yhdistämässä backend-palvelua, tarkista, onko backend ollut kunnossa',
 	},
 }; 

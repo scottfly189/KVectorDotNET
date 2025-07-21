@@ -25,5 +25,6 @@ export default {
 		thinkingDone: '思考が完了しました',
 		thinkingFailed: '思考に失敗しました',
 		thinkingPrepare: '思考を準備中...',
+		backEndError: 'バックエンドサービスへの接続に失敗しました。バックエンドが正常に動作していることを確認してください',
 	},
 }; 

@@ -2,7 +2,8 @@
 	<div style="flex: 1; background: #f3f4f6; overflow: auto">
 		<el-container>
 			<!-- 侧边栏 -->
-			<el-aside v-show="!isFold" :class="isFold ? 'sidebar-fold' : 'expand-sidebar'" style="background: #f3f4f6; border-right: 1px solid #f0f0f0; display: flex; flex-direction: column">
+			<el-aside v-show="!isFold" :class="isFold ? 'sidebar-fold' : 'expand-sidebar'"
+				style="background: #f3f4f6; border-right: 1px solid #f0f0f0; display: flex; flex-direction: column">
 				<div class="chat-action">
 					<el-tooltip :content="$t('message.chat.newChat')" placement="top">
 						<div class="chat-action-item" @click.stop="handleNewChat">
@@ -15,28 +16,23 @@
 						</div>
 					</el-tooltip>
 				</div>
-				<div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 8px; padding-top: 0px; margin-top: 0px">
-					<el-avatar :size="60" style="background-color: #f3f4f6" src="/chat.png" fit="fill" class="avatar-with-shadow" />
-					<div style="margin-top: 10px; font-weight: bold; font-size: 18px; color: #333">{{ $t('message.chat.title') }}</div>
+				<div
+					style="display: flex; flex-direction: column; align-items: center; padding-bottom: 8px; padding-top: 0px; margin-top: 0px">
+					<el-avatar :size="60" style="background-color: #f3f4f6" src="/chat.png" fit="fill"
+						class="avatar-with-shadow" />
+					<div style="margin-top: 10px; font-weight: bold; font-size: 18px; color: #333">{{
+						$t('message.chat.title') }}</div>
 				</div>
 				<div style="flex: 1; overflow-y: auto; width: 100%">
 					<div style="display: flex; flex-direction: column; gap: 12px; height: 100%">
-						<Conversations
-							style="border-radius: 0%; width: 255px"
-							v-model:active="activeHistoryKey"
-							:items="sideBarHistoryList"
-							row-key="key"
-							:show-tooltip="true"
-							showToTopBtn
-							:label-max-width="210"
-							:load-more="loadMoreHistoryItems"
-							:load-more-loading="isHistoryListLoading"
-							showBuiltInMenu
-							@change="handleChange"
-						>
+						<Conversations style="border-radius: 0%; width: 255px" v-model:active="activeHistoryKey"
+							:items="sideBarHistoryList" row-key="key" :show-tooltip="true" showToTopBtn
+							:label-max-width="210" :load-more="loadMoreHistoryItems"
+							:load-more-loading="isHistoryListLoading" showBuiltInMenu @change="handleChange">
 							<template #menu="{ item }">
 								<div class="menu-buttons">
-									<el-button v-for="menuItem in actionMenuItems" :key="menuItem.key" link size="default" @click="handleMenuClick(menuItem.key, item)">
+									<el-button v-for="menuItem in actionMenuItems" :key="menuItem.key" link
+										size="default" @click="handleMenuClick(menuItem.key, item)">
 										<el-icon v-if="menuItem.icon">
 											<component :is="menuItem.icon" />
 										</el-icon>
@@ -51,8 +47,7 @@
 
 			<!-- 主体内容 -->
 			<el-container>
-				<el-main
-					style="
+				<el-main style="
 						flex: 1;
 						width: 100%;
 						height: 100%;
@@ -65,12 +60,12 @@
 						align-items: center;
 						justify-content: flex-start;
 						background: #fff;
-					"
-				>
+					">
 					<div class="main_action_toolbar" style="position: absolute; top: 0px; width: 500px; left: 20px">
 						<div v-if="isFold" class="chat-action-item main_action_item">
 							<el-tooltip :content="$t('message.chat.expandChat')" placement="top">
-								<Expand style="width: 1.5em; height: 1.5em; color: #333" @click.stop="handleExpandChat" />
+								<Expand style="width: 1.5em; height: 1.5em; color: #333"
+									@click.stop="handleExpandChat" />
 							</el-tooltip>
 						</div>
 						<div v-if="isFold" class="chat-action-item main_action_item" @click="handleNewChat">
@@ -88,10 +83,12 @@
 								</span>
 								<template #dropdown>
 									<el-dropdown-menu>
-										<el-dropdown-item v-for="item in modellList.models" :key="item.modelName" @click="handleChangeModel(item)">
+										<el-dropdown-item v-for="item in modellList.models" :key="item.modelName"
+											@click="handleChangeModel(item)">
 											<div class="model-item">
 												<span>{{ item.providerName }}/{{ item.modelName }}</span>
-												<el-icon v-if="item.modelName == modellList.currentModel" style="color: #409eff">
+												<el-icon v-if="item.modelName == modellList.currentModel"
+													style="color: #409eff">
 													<Select />
 												</el-icon>
 											</div>
@@ -102,21 +99,33 @@
 						</div>
 					</div>
 					<div v-if="isNew" class="new_chat_title">
-						<div style="margin-top: 60px; font-size: 36px; font-weight: bold; letter-spacing: 2px">Hello, {{ userName }}</div>
-						<div style="margin-top: 20px; width: 100%; text-align: center; color: #999; font-size: 16px; font-weight: bold; letter-spacing: 2px">
+						<div style="margin-top: 60px; font-size: 36px; font-weight: bold; letter-spacing: 2px">Hello, {{
+							userName }}
+						</div>
+						<div
+							style="margin-top: 20px; width: 100%; text-align: center; color: #999; font-size: 16px; font-weight: bold; letter-spacing: 2px">
 							{{ $t('message.chat.subTitle') }}
 						</div>
 					</div>
 					<div v-else class="chat_content">
-						<BubbleList class="chat_content_list" ref="chatRef" :list="chatList" maxHeight="100%" style="padding: 0 60px 100px 60px" @complete="handleBubbleComplete" :triggerIndices="triggerIndices">
+						<BubbleList class="chat_content_list" ref="chatRef" :list="chatList" maxHeight="100%"
+							style="padding: 0 60px 100px 60px" @complete="handleBubbleComplete"
+							:triggerIndices="triggerIndices">
 							<template #header="{ item }">
-								<div v-if="item.role == 'assistant' && deepThinkingVisible && item.key == chatList[chatList.length - 1].key" class="header-wrapper">
-									<Thinking max-width="100%" buttonWidth="250px" autoCollapse :content="deepThinkingMessage" :status="deepThinkingStatus" backgroundColor="#fff9e6" color="#000">
+								<div v-if="item.role == 'assistant' && deepThinkingVisible && item.key == chatList[chatList.length - 1].key"
+									class="header-wrapper">
+									<Thinking max-width="100%" buttonWidth="250px" autoCollapse
+										:content="deepThinkingMessage" :status="deepThinkingStatus"
+										backgroundColor="#fff9e6" color="#000">
 										<template #label="{ status }">
-											<span v-if="status === 'start'">{{ $t('message.chat.startThinking') }}</span>
-											<span v-else-if="status === 'thinking'">{{ $t('message.chat.thinking') }}</span>
-											<span v-else-if="status === 'end'">{{ $t('message.chat.thinkingDone') }}</span>
-											<span v-else-if="status === 'error'">{{ $t('message.chat.thinkingFailed') }}</span>
+											<span v-if="status === 'start'">{{ $t('message.chat.startThinking')
+												}}</span>
+											<span v-else-if="status === 'thinking'">{{ $t('message.chat.thinking')
+												}}</span>
+											<span v-else-if="status === 'end'">{{ $t('message.chat.thinkingDone')
+												}}</span>
+											<span v-else-if="status === 'error'">{{ $t('message.chat.thinkingFailed')
+												}}</span>
 										</template>
 										<template #content="{ content }">
 											<span>
@@ -128,12 +137,15 @@
 							</template>
 							<template #footer="{ item }">
 								<div v-if="item.role == 'assistant'" class="footer-container">
-									<el-button type="info" text :icon="CopyDocument" size="small" @click="handleCopy(item)" />
+									<el-button type="info" text :icon="CopyDocument" size="small"
+										@click="handleCopy(item)" />
 									<el-button type="info" text size="small">
-										<el-icon v-if="!isPlaying || playAudioKey != item.key" @click="handlePlay(item)">
+										<el-icon v-if="!isPlaying || playAudioKey != item.key"
+											@click="handlePlay(item)">
 											<VideoPlay />
 										</el-icon>
-										<el-icon v-if="isPlaying && playAudioKey == item.key" @click="handlePause(item)">
+										<el-icon v-if="isPlaying && playAudioKey == item.key"
+											@click="handlePause(item)">
 											<VideoPause />
 										</el-icon>
 									</el-button>
@@ -142,18 +154,9 @@
 						</BubbleList>
 					</div>
 					<div :class="isNew ? 'chat_new_input_style' : 'chat_edit_input_style'">
-						<sender
-							ref="senderRef"
-							variant="updown"
-							clearable
-							allow-speech
-							:loading="isSenderLoading"
-							:read-only="isSenderLoading"
-							:auto-size="{ minRows: 1, maxRows: 5 }"
-							v-model="senderInput"
-							@submit="handleSend"
-							:placeholder="$t('message.chat.inputPlaceholder')"
-						>
+						<sender ref="senderRef" variant="updown" clearable allow-speech :loading="isSenderLoading"
+							:read-only="isSenderLoading" :auto-size="{ minRows: 1, maxRows: 5 }" v-model="senderInput"
+							@submit="handleSend" :placeholder="$t('message.chat.inputPlaceholder')">
 							<template #prefix>
 								<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap">
 									<el-button round plain>
@@ -162,11 +165,9 @@
 										</el-icon>
 									</el-button>
 
-									<div
-										:class="{ isDeepThinking }"
+									<div :class="{ isDeepThinking }"
 										style="display: flex; align-items: center; gap: 4px; padding: 4px 12px; border: 1px solid silver; border-radius: 15px; cursor: pointer; font-size: 12px"
-										@click="handleDeepThinking"
-									>
+										@click="handleDeepThinking">
 										<el-icon>
 											<ElementPlus />
 										</el-icon>
@@ -187,10 +188,12 @@
 						<div class="ai-rename-icon ai-rename-drag" @mousedown="startDrag">
 							<el-avatar :size="48" src="/chat.png" />
 						</div>
-						<el-input v-model="renameInput" @keyup.enter="confirmRename" ref="renameInputRef" class="ai-rename-input" />
+						<el-input v-model="renameInput" @keyup.enter="confirmRename" ref="renameInputRef"
+							class="ai-rename-input" />
 					</div>
 					<div class="ai-dialog-footer">
-						<el-button @click="cancelRename" class="ai-btn-cancel">{{ $t('message.chat.cancel') }}</el-button>
+						<el-button @click="cancelRename" class="ai-btn-cancel">{{ $t('message.chat.cancel')
+							}}</el-button>
 						<el-button type="primary" @click="confirmRename" class="ai-btn-confirm">
 							{{ $t('message.chat.confirm') }}
 						</el-button>
@@ -256,11 +259,7 @@ const deepThinkingStatus = ref('start');
 const deepThinkingVisible = ref(false);
 
 let historyListSource: ChatListOutput[] = []; //从后台获取的原始历史记录
-// 添加重连相关配置
-const reconnectInterval = 5000; // 重连间隔时间（毫秒）
-const maxRetries = 1000; // 最大重试次数
-let retryCount = 0;
-let reconnectTimer: number | null = null;
+
 let utterance: SpeechSynthesisUtterance | null = null;
 const triggerIndices = ref<BubbleListProps['triggerIndices']>('only-last');
 
@@ -283,14 +282,46 @@ const actionMenuItems = [
 		icon: Delete,
 	},
 ];
+// 处理菜单点击
+const renameDialogVisible = ref(false);
+const currentEditItem = ref<any>(null);
+const renameInput = ref('');
+const renameModalRef = ref<HTMLElement | null>(null);
+let dragData = { dragging: false, offsetX: 0, offsetY: 0 };
 
 //#region sse客户端
 let eventSource: EventSource | null = null;
-
+let monitorSSEConnectionHandler: NodeJS.Timeout | null = null;
+let lastSseConnectionTime = Date.now();
+let isSSEConnectionClosed = false;
+const SSE_CONNECTION_TIMEOUT = 5000;
+// 初始化sse连接
 const initSSEConnection = () => {
-	if (eventSource) {
-		eventSource.close();
+	initSSEConnectionCore();
+	// 监控sse连接
+	monitorSSEConnectionHandler = setInterval(() => {
+		isSSEConnectionClosed = Date.now() - lastSseConnectionTime > SSE_CONNECTION_TIMEOUT;
+		if (isSSEConnectionClosed) {
+			console.log("SSE connection timed out, reconnecting");
+			try {
+				initSSEConnectionCore();
+			} catch (err) {
+				console.log("SSE connection timed out, reconnecting failed", err);
+			}
+		} 
+	}, SSE_CONNECTION_TIMEOUT);
+};
+
+// 检查sse连接状态
+const checkSSEConnectionStatus = () => {
+	if (isSSEConnectionClosed) {
+		return false;
 	}
+	return true;
+}
+// 初始化sse连接核心代码
+const initSSEConnectionCore = () => {
+	closeSSEConnection();
 
 	eventSource = new EventSource('/sse/chat/' + userId());
 
@@ -328,66 +359,27 @@ const initSSEConnection = () => {
 			chatList.value[chatList.value.length - 1].content = currentChatItemMessage.value;
 			return;
 		}
-		currentChatItemMessage.value = currentChatItemMessage.value + data; // 先接收流式数据
-
-		// 收到消息后重置重试计数
-		retryCount = 0;
-		reconnectTimer = null;
+		currentChatItemMessage.value = currentChatItemMessage.value + data; // 先接收流式数据存放在临时变量中
 	});
 
 	// 收到ping消息, 用于心跳检测
 	eventSource.addEventListener('ping', (event) => {
 		console.log('heat beat:', event.data);
-		// 收到ping后重置重试计数
-		retryCount = 0;
-		reconnectTimer = null;
+		lastSseConnectionTime = Date.now();
 	});
 
-	// 检查连接状态
-	const checkConnection = () => {
-		if (eventSource && eventSource.readyState === EventSource.CLOSED) {
-			console.log('Connection closed, attempting to reconnect...');
-			if (retryCount < maxRetries) {
-				retryCount++;
-				console.log(`Attempting to reconnect (${retryCount}/${maxRetries})...`);
-				reconnectTimer = window.setTimeout(() => {
-					initSSEConnection();
-				}, reconnectInterval);
-			}
-		}
-	};
-
-	// 定期检查连接状态
-	const connectionCheckInterval = setInterval(checkConnection, 3000);
 
 	eventSource.onerror = () => {
 		console.log('SSE connection error');
-		if (eventSource?.readyState === EventSource.CLOSED) {
-			if (connectionCheckInterval) {
-				clearInterval(connectionCheckInterval);
-			}
-			if (retryCount < maxRetries) {
-				retryCount++;
-				console.log(`Attempting to reconnect (${retryCount}/${maxRetries})...`);
-				reconnectTimer = window.setTimeout(() => {
-					initSSEConnection();
-				}, reconnectInterval);
-			}
-		}
 	};
+
 
 	eventSource.onopen = (event) => {
 		console.log('SSE connection opened:', event);
-		retryCount = 0; // 连接成功后重置重试计数
-		reconnectTimer = null;
 	};
 };
 
 const closeSSEConnection = () => {
-	if (reconnectTimer) {
-		clearTimeout(reconnectTimer);
-		reconnectTimer = null;
-	}
 	if (eventSource) {
 		eventSource.close();
 		eventSource = null;
@@ -401,6 +393,10 @@ const handleBubbleComplete = (instance: TypewriterInstance, index: number) => {
 //#endregion sse客户端
 const handleSend = async () => {
 	if (!senderInput.value.trim()) return;
+	if (!checkSSEConnectionStatus()) {
+		ElMessage.error(t('message.chat.backEndError'));
+		return;
+	}
 	isSenderLoading.value = true;
 	currentChatItemMessage.value = '';
 	if (isNew.value) {
@@ -675,12 +671,7 @@ const loadMoreHistoryItems = async () => {
 	isHistoryListLoading.value = false;
 };
 
-// 处理菜单点击
-const renameDialogVisible = ref(false);
-const currentEditItem = ref<any>(null);
-const renameInput = ref('');
-const renameModalRef = ref<HTMLElement | null>(null);
-let dragData = { dragging: false, offsetX: 0, offsetY: 0 };
+
 
 const handleMenuClick = (menuKey: string, item: any) => {
 	switch (menuKey) {
@@ -839,6 +830,10 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
 	closeSSEConnection();
+	if (monitorSSEConnectionHandler) {
+		clearInterval(monitorSSEConnectionHandler);
+		monitorSSEConnectionHandler = null;
+	}
 	if (utterance) {
 		window.speechSynthesis.cancel();
 		utterance = null;

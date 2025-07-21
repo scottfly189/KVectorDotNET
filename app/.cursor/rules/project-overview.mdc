@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 项目介绍
+
+## 本APP项目为Project Zoom建筑施工管理系统的APP客户端
+
+## 使用的技术栈
+- 使用的是flutter 3.27.1来开发此app,使用的是dart 3.6.0开发语言;
+- 使用getx来管理状态;
+- 使用go_router来管理路由;
+- 使用dio来对后端进行web api请求;
+- 使用flutter_intl来进行国际化开发;
+- 其余如：使用mobile_scanner来进行二维码扫描，使用audioplayers进行语音提示
+

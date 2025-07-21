@@ -25,5 +25,6 @@ export default {
 		thinkingDone: '思考完成',
 		thinkingFailed: '思考失敗',
 		thinkingPrepare: '正在思考做準備...',
+		backEndError: '連接後端服務有錯誤，請檢查後端是否正常',
 	},
 }; 

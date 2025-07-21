@@ -25,5 +25,6 @@ export default {
 		thinkingDone: '생각 완료',
 		thinkingFailed: '생각 실패',
 		thinkingPrepare: '생각 준비 중...',
+		backEndError: '백엔드 서비스에 연결하는 데 실패했습니다. 백엔드가 정상적으로 작동하는지 확인해주세요.',
 	},
 }; 

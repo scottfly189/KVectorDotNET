@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Pensée terminée',
 		thinkingFailed: 'Pensée échouée',
 		thinkingPrepare: 'Pensée en cours de préparation...',
+		backEndError: 'Erreur lors de la connexion au service backend, veuillez vérifier si le backend est normal',
 	},
 }; 

@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 开发流程指南
+
+## 常用命令
+
+- 运行项目：`flutter run`
+- 清理项目：`flutter clean`
+- 获取依赖：`flutter pub get`
+
+## 开发流程
+
+1. 确保已安装 Flutter 和 Dart SDK。
+2. 克隆项目后，运行 `flutter pub get` 安装依赖。
+4. 使用 `flutter run` 启动项目进行调试。
+
+## 注意事项
+
+- 项目结构说明请参考 [project-structure.mdc](mdc:.cursor/rules/project-structure.mdc)。

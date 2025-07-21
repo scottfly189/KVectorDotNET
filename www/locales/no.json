@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "Registrer",
+    "login": "Logg inn",
+    "ok": "OK",
+    "cancel": "Avbryt",
+    "confirm": "Bekreft",
+    "next": "Neste"
+  },
+  "header": {
+    "products": "Produkter",
+    "customers": "Kunder",
+    "industries": "Bransjer",
+    "resources": "Ressurser",
+    "about": "Om oss",
+    "pricing": "Priser",
+    "contact": "Kontakt",
+    "trial": "30-Day Free Trial",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Løsninger",
+          "links": {
+            "platform": "Plattformoversikt",
+            "constructionManagement": "Byggadministrasjon",
+            "buildingOperations": "Bygningsdrift"
+          }
+        },
+        "capabilities": {
+          "title": "Funksjoner",
+          "links": {
+            "plans": "Tegninger og BIM",
+            "documentManagement": "Dokumenthåndtering",
+            "reporting": "Rapportering og analyse",
+            "schedules": "Tidsplaner",
+            "integrations": "Integrasjoner",
+            "security": "Sikkerhet og databeskyttelse"
+          }
+        },
+        "visualDocumentation": {
+          "title": "Visuell dokumentasjon",
+          "links": {
+            "siteView": "Byggeplass 360° visning"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "Oversikt",
+          "links": {
+            "overview": "Kundeoversikt"
+          }
+        },
+        "segments": {
+          "title": "Kundesegmenter",
+          "links": {
+            "contractors": "Entreprenører",
+            "developers": "Utviklere og eiere",
+            "facilityManagers": "Facility managers",
+            "specialtyContractors": "Spesialentreprenører",
+            "consultancies": "Konsulentselskaper",
+            "architects": "Arkitekter"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "Løsninger",
+          "links": {
+            "construction": "Bygg",
+            "realEstate": "Eiendom",
+            "facilityManagement": "Facility management"
+          }
+        },
+        "sectors": {
+          "title": "Sektorer",
+          "links": {
+            "retail": "Detaljhandel",
+            "infrastructure": "Infrastruktur",
+            "hospitality": "Hotell og restaurant",
+            "publicSector": "Offentlig sektor",
+            "office": "Kontor",
+            "industrial": "Industri",
+            "residential": "Bolig"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "Ressurser",
+          "links": {
+            "quickStart": "Hurtigstart",
+            "helpCenter": "Hjelpesenter",
+            "blog": "Blogg",
+            "events": "Arrangementer",
+            "security": "Sikkerhet",
+            "academy": "Akademi"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "Selskap",
+          "links": {
+            "aboutUs": "Om oss",
+            "team": "Team",
+            "press": "Presse",
+            "careers": "Karriere",
+            "partners": "Partnere"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "Bygg-, facility management- og eiendomsplattform",
+    "subtitle": "Forenkle arbeidsdagen din",
+    "coreFeatures": "Kjernefunksjoner",
+    "defectManagement": {
+      "title": "Mangelhåndtering",
+      "description": "Registrer og spor byggefeil raskt for å sikre kvalitet"
+    },
+    "documentManagement": {
+      "title": "Dokumenthåndtering",
+      "description": "Lagre og administrer prosjektdokumenter sentralt, tilgjengelig når som helst og hvor som helst"
+    },
+    "dataReporting": {
+      "title": "Datarapportering",
+      "description": "Generer prosjektrapporter automatisk, spor fremdrift i sanntid"
+    },  
+    "projectManagement": {
+      "title": "Prosjektstyring",
+      "description": "Styr prosjektet sentralt for å sikre at det gjennomføres på tid"
+    },
+    "teamCollaboration": {
+      "title": "Teamarbeid",
+      "description": "Støtte til samarbeid mellom teammedlemmer og øke arbeidsproduktivitet"
+    },
+    "mobileAccess": {
+      "title": "Mobiltilgang",
+      "description": "Tilgang til prosjektinformasjon når som helst og hvor som helst, øke arbeidsproduktivitet"
+    }
+  },
+  "register": {
+    "title": "Opprett din konto",
+    "subtitle": "30-dagers gratis prøveperiode",
+    "email": "E-post",
+    "password": "Passord",
+    "confirmPassword": "Bekreft passord",
+    "requireEmail": "Vennligst skriv inn din e-post",
+    "requirePassword": "Vennligst skriv inn ditt passord",
+    "requireConfirmPassword": "Vennligst bekreft ditt passord",
+    "requireAcceptMarketing": "Jeg godtar vilkårene og betingelsene",
+    "confirmMarcketing": "Jeg har lest og godtar brukeravtalen",
+    "register": "Opprett",
+    "login": "Logg inn",
+    "registerSuccessMessage": "Konto opprettet, vennligst logg inn",
+    "registerErrorEmail": "E-postadressen eksisterer allerede",
+    "registerErrorConfirmPassword": "Passordene samsvarer ikke",
+    "registerErrorConfirmMarcketing": "Vennligst godta vilkårene og betingelsene",
+    "registerErrorEmailRequired": "E-post er påkrevd",
+    "registerErrorPasswordRequired": "Passord er påkrevd",
+    "registerErrorConfirmPasswordRequired": "Bekreftelse av passord er påkrevd",
+    "registerErrorEmailInvalid": "E-postadressen er ugyldig",
+    "querySendEmail": "Vi sender en bekreftelses e-post til {email}, vennligst logg inn på e-post for å se bekreftelses e-posten, koden i e-posten kan hjelpe deg å fullføre registreringsprosessen",
+    "emailSentSuccess": "E-post sendt, vennligst logg inn på e-post for å se bekreftelses e-posten, koden i e-posten kan hjelpe deg å fullføre registreringsprosessen",
+    "registerWillComplete": "Registrering vil være ferdig",
+    "registerWillCompleteSubtitle": "Fullfør bedriftinformasjon",
+    "finishCompanyNamePlaceholder": "Vennligst skriv inn bedriftens navn",
+    "finishCompanyNameRequired": "Bedriftens navn er påkrevd",
+    "verificationCode": "Bekreftelseskode(Vennligst hente koden fra e-posten)",
+    "verificationCodePlaceholder": "Vennligst skriv inn bekreftelseskoden",
+    "verificationCodeRequired": "Bekreftelseskode er påkrevd",
+    "sendingEmail": "Sender e-post...",
+    "verificationCodeError": "Bekreftelseskode er feil eller har utløpt",
+    "creatingAccount": "Oppretter konto og bedrift, vennligst vent...",
+    "emailSentError": "E-post kunne ikke sendes, vennligst sjekk e-postadressen eller e-postadressen er allerede registrert",
+    "registering": "Registrerer, vennligst vent...",
+    "registerFailed": "Registrering feilet, vennligst prøv igjen senere",
+    "registerSuccess": "Takk! Registrering vellykket!",
+    "registerSuccessSubtitle": "Vennligst bruk den registrerte e-postadressen og passordet for å logge inn i systemet",
+    "fullName": "Navn",
+    "requireFullName": "Vennligst skriv inn ditt navn",
+    "registerErrorFullNameRequired": "Navn er påkrevd",
+    "mobile": "Telefonnummer",
+    "registerErrorMobileRequired": "Telefonnummer er påkrevd"
+  },
+  "userRegister": {
+    "title": "Din administrator inviterer deg til å bli med i team",
+    "subtitle": "Vennligst bruk din e-post for å registrere deg og logge inn i systemet",
+    "successTitle": "👋👋Takk! Du er på vei til å bli med i følgende team:",
+    "joinTeam": "Bli med i team...",
+    "joinTeamSuccess": "Bli med i team vellykket, vennligst logge inn i systemet",
+    "joinTeamFailed": "Bli med i team feilet, vennligst prøv igjen senere"
+  }
+} 

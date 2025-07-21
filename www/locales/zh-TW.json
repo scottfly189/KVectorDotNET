@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "註冊",
+    "login": "登入",
+    "ok": "確認",
+    "cancel": "取消",
+    "confirm": "確認",
+    "next": "下一步"
+  },
+  "header": {
+    "products": "產品",
+    "customers": "客戶",
+    "industries": "產業",
+    "resources": "資源",
+    "about": "關於",
+    "pricing": "價格",
+    "contact": "聯絡",
+    "trial": "30天免費試用",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "解決方案",
+          "links": {
+            "platform": "平台概覽",
+            "constructionManagement": "建築管理",
+            "buildingOperations": "建築營運"
+          }
+        },
+        "capabilities": {
+          "title": "平台功能",
+          "links": {
+            "plans": "圖紙和BIM模型",
+            "documentManagement": "文件管理",
+            "reporting": "報告與分析",
+            "schedules": "進度計劃",
+            "integrations": "整合",
+            "security": "安全與資料保護"
+          }
+        },
+        "visualDocumentation": {
+          "title": "可視化文件",
+          "links": {
+            "siteView": "現場360°實景"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "概覽",
+          "links": {
+            "overview": "客戶概覽"
+          }
+        },
+        "segments": {
+          "title": "客戶群體",
+          "links": {
+            "contractors": "建築承包商",
+            "developers": "開發商與業主",
+            "facilityManagers": "設施管理者",
+            "specialtyContractors": "專業承包商",
+            "consultancies": "建築諮詢公司",
+            "architects": "建築師"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "解決方案",
+          "links": {
+            "construction": "建築",
+            "realEstate": "房地產",
+            "facilityManagement": "設施管理"
+          }
+        },
+        "sectors": {
+          "title": "產業領域",
+          "links": {
+            "retail": "零售",
+            "infrastructure": "基礎設施",
+            "hospitality": "酒店管理",
+            "publicSector": "公共部門",
+            "office": "辦公",
+            "industrial": "工業",
+            "residential": "住宅"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "資源",
+          "links": {
+            "quickStart": "快速入門",
+            "helpCenter": "幫助中心",
+            "blog": "部落格",
+            "events": "活動",
+            "security": "安全與資料保護",
+            "academy": "學院"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "公司",
+          "links": {
+            "aboutUs": "關於我們",
+            "team": "團隊",
+            "press": "新聞",
+            "careers": "招聘",
+            "partners": "合作夥伴"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "建築、設施管理與房地產平台",
+    "subtitle": "簡化您的工作日",
+    "coreFeatures": "核心功能",
+    "defectManagement": {
+      "title": "缺陷管理",
+      "description": "快速記錄和追蹤施工缺陷，確保工程品質"
+    },
+    "documentManagement": {
+      "title": "文件管理",
+      "description": "集中儲存和管理專案文件，隨時隨地存取"
+    },
+    "dataReporting": {
+      "title": "數據報告",
+      "description": "自動生成專案報告，即時掌握專案進度"
+    },
+    "projectManagement": {
+      "title": "項目管理",
+      "description": "集中管理項目，確保按時完成"
+    },
+    "teamCollaboration": {
+      "title": "團隊合作",
+      "description": "促進團隊合作，提高工作效率"
+    },
+    "mobileAccess": {
+      "title": "移動訪問",
+      "description": "隨時隨地訪問項目信息，提高工作效率"
+    }
+  },
+  "register": {
+    "title": "註冊",
+    "subtitle": "30天試用",
+    "email": "電子郵件",
+    "password": "密碼",
+    "confirmPassword": "確認密碼",
+    "requireEmail": "請輸入電子郵件",
+    "requirePassword": "請輸入密碼",
+    "requireConfirmPassword": "請確認密碼",
+    "requireAcceptMarketing": "同意協議",
+    "confirmMarcketing": "我已閱讀並同意用戶協議",
+    "register": "註冊",
+    "login": "登入",
+    "registerSuccessMessage": "註冊成功，請登入",
+    "registerErrorEmail": "電子郵件已存在",
+    "registerErrorConfirmPassword": "密碼不一致",
+    "registerErrorConfirmMarcketing": "請同意協議",
+    "registerErrorEmailRequired": "電子郵件不能為空",
+    "registerErrorPasswordRequired": "密碼不能為空",
+    "registerErrorConfirmPasswordRequired": "確認密碼不能為空",
+    "registerErrorEmailInvalid": "電子郵件格式不正確",
+    "querySendEmail": "我們將向{email}發送驗證電郵，請登入電郵查看驗證電郵，電郵中的驗證碼可以幫助您完成註冊流程",
+    "emailSentSuccess": "電郵已發送，請登入電郵查看驗證電郵，電郵中的驗證碼可以幫助您完成註冊流程",
+    "registerWillComplete": "即將註冊完成",
+    "registerWillCompleteSubtitle": "完成企業信息",
+    "finishCompanyNamePlaceholder": "請輸入企業名稱",
+    "finishCompanyNameRequired": "企業名稱不能為空",
+    "verificationCode": "驗證碼(請從電郵中獲取)",
+    "verificationCodePlaceholder": "請輸入驗證碼",
+    "verificationCodeRequired": "驗證碼不能為空",
+    "sendingEmail": "發送電郵中...",
+    "verificationCodeError": "驗證碼錯誤或已過期",
+    "creatingAccount": "創建帳戶與企業中，請稍候...",
+    "emailSentError": "電郵發送失敗，請檢查電郵地址或電郵地址已註冊",
+    "registering": "註冊中，請稍候...",
+    "registerFailed": "註冊失敗，請稍候再試",
+    "registerSuccess": "恭喜！註冊成功！",
+    "registerSuccessSubtitle": "請用註冊的電郵和密碼登入系統",
+    "fullName": "姓名",
+    "requireFullName": "請輸入姓名",
+    "registerErrorFullNameRequired": "姓名不能為空",
+    "mobile": "手機號碼",
+    "registerErrorMobileRequired": "手機號碼不能為空"
+  },
+  "userRegister": {
+    "title": "您的管理員邀請你加入團隊",
+    "subtitle": "請用自己的電郵註冊後登入系統",
+    "successTitle": "👋👋恭喜！您即將加入下面的團隊:",
+    "joinTeam": "正在加入團隊中...",
+    "joinTeamSuccess": "加入團隊成功，請登入系統",
+    "joinTeamFailed": "加入團隊失敗，請稍候再試"
+  }
+}

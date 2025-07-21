@@ -25,5 +25,6 @@ export default {
 		thinkingDone: 'Suy nghĩ đã hoàn tất',
 		thinkingFailed: 'Suy nghĩ thất bại',
 		thinkingPrepare: 'Đang suy nghĩ làm bài tập...',
+		backEndError: 'Lỗi khi kết nối với máy chủ, vui lòng kiểm tra xem máy chủ có hoạt động không',
 	},
 }; 	

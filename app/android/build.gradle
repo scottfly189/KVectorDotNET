@@ -1,0 +1,24 @@
+allprojects {
+    repositories {
+        // 配置清华镜像
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/google/' }
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/jcenter/' }
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/central/' }
+                
+        google()
+        mavenCentral()
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/flutter/download.flutter.io' }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

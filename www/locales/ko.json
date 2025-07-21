@@ -1,0 +1,205 @@
+{
+  "siteName": "PROJECT ZOOM",
+  "common": {
+    "signUp": "회원가입",
+    "login": "로그인",
+    "ok": "확인",
+    "cancel": "취소",
+    "confirm": "확인",
+    "next": "다음"
+  },
+  "header": {
+    "products": "제품",
+    "customers": "고객",
+    "industries": "산업",
+    "resources": "리소스",
+    "about": "회사 소개",
+    "pricing": "가격",
+    "contact": "연락처",
+    "trial": "30일 무료 체험",
+    "productsMenu": {
+      "sections": {
+        "solutions": {
+          "title": "솔루션",
+          "links": {
+            "platform": "플랫폼 개요",
+            "constructionManagement": "건설 관리",
+            "buildingOperations": "건물 운영"
+          }
+        },
+        "capabilities": {
+          "title": "기능",
+          "links": {
+            "plans": "도면 및 BIM",
+            "documentManagement": "문서 관리",
+            "reporting": "보고 및 분석",
+            "schedules": "일정",
+            "integrations": "통합",
+            "security": "보안 및 데이터 보호"
+          }
+        },
+        "visualDocumentation": {
+          "title": "시각적 문서화",
+          "links": {
+            "siteView": "현장 360° 뷰"
+          }
+        }
+      }
+    },
+    "customersMenu": {
+      "sections": {
+        "overview": {
+          "title": "개요",
+          "links": {
+            "overview": "고객 개요"
+          }
+        },
+        "segments": {
+          "title": "고객 세그먼트",
+          "links": {
+            "contractors": "시공사",
+            "developers": "개발자 및 소유자",
+            "facilityManagers": "시설 관리자",
+            "specialtyContractors": "전문 시공사",
+            "consultancies": "컨설팅 회사",
+            "architects": "건축가"
+          }
+        }
+      }
+    },
+    "industriesMenu": {
+      "sections": {
+        "solutions": {
+          "title": "솔루션",
+          "links": {
+            "construction": "건설",
+            "realEstate": "부동산",
+            "facilityManagement": "시설 관리"
+          }
+        },
+        "sectors": {
+          "title": "부문",
+          "links": {
+            "retail": "소매",
+            "infrastructure": "인프라",
+            "hospitality": "호스피탈리티",
+            "publicSector": "공공 부문",
+            "office": "사무실",
+            "industrial": "산업",
+            "residential": "주거"
+          }
+        }
+      }
+    },
+    "resourcesMenu": {
+      "sections": {
+        "resources": {
+          "title": "리소스",
+          "links": {
+            "quickStart": "빠른 시작",
+            "helpCenter": "도움말 센터",
+            "blog": "블로그",
+            "events": "이벤트",
+            "security": "보안",
+            "academy": "아카데미"
+          }
+        }
+      }
+    },
+    "aboutMenu": {
+      "sections": {
+        "company": {
+          "title": "회사",
+          "links": {
+            "aboutUs": "회사 소개",
+            "team": "팀",
+            "press": "언론 보도",
+            "careers": "채용",
+            "partners": "파트너"
+          }
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "건설, 시설 관리 및 부동산 플랫폼",
+    "subtitle": "업무일을 간소화하세요",
+    "coreFeatures": "핵심 기능",
+    "defectManagement": {
+      "title": "결함 관리",
+      "description": "건설 결함을 신속하게 기록하고 추적하여 품질 보장"
+    },
+    "documentManagement": {
+      "title": "문서 관리",
+      "description": "프로젝트 문서를 중앙에서 저장하고 관리하며 언제 어디서나 접근 가능"
+    },
+    "dataReporting": {
+      "title": "데이터 보고",
+      "description": "프로젝트 보고서를 자동으로 생성하고 실시간으로 진행 상황 추적"
+    },
+    "projectManagement": {
+      "title": "프로젝트 관리",
+      "description": "프로젝트를 중앙에서 관리하여 정확한 완료 보장"
+    },
+    "teamCollaboration": {
+      "title": "팀 협업",
+      "description": "팀 협업을 촉진하여 작업 효율성 향상"
+    },
+    "mobileAccess": {
+      "title": "모바일 접근",
+      "description": "언제 어디서나 프로젝트 정보에 접근하여 작업 효율성 향상"
+    }
+  },
+  "register": {
+    "title": "계정 설정",
+    "subtitle": "30일 무료 체험",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "requireEmail": "이메일을 입력해주세요",
+    "requirePassword": "비밀번호를 입력해주세요",
+    "requireConfirmPassword": "비밀번호를 확인해주세요",
+    "requireAcceptMarketing": "이용약관에 동의합니다",
+    "confirmMarcketing": "사용자 계약을 읽고 동의합니다",
+    "register": "설정",
+    "login": "로그인",
+    "registerSuccessMessage": "설정이 완료되었습니다. 로그인해주세요",
+    "registerErrorEmail": "이미 존재하는 이메일입니다",
+    "registerErrorConfirmPassword": "비밀번호가 일치하지 않습니다",
+    "registerErrorConfirmMarcketing": "이용약관에 동의해주세요",
+    "registerErrorEmailRequired": "이메일은 필수 항목입니다",
+    "registerErrorPasswordRequired": "비밀번호는 필수 항목입니다",
+    "registerErrorConfirmPasswordRequired": "비밀번호 확인은 필수 항목입니다",
+    "registerErrorEmailInvalid": "유효하지 않은 이메일입니다",
+    "querySendEmail": "이메일을 확인하세요. 이메일에 포함된 인증 코드를 입력하여 계정 설정을 완료하세요.",
+    "emailSentSuccess": "이메일이 성공적으로 전송되었습니다. 이메일을 확인하여 계정 설정을 완료하세요.",
+    "registerWillComplete": "계정 설정이 완료됩니다",
+    "registerWillCompleteSubtitle": "기업 정보를 입력하세요",
+    "finishCompanyNamePlaceholder": "기업 이름을 입력하세요",
+    "finishCompanyNameRequired": "기업 이름은 필수 항목입니다",
+    "verificationCode": "인증 코드(이메일에서 확인하세요)",
+    "verificationCodePlaceholder": "인증 코드를 입력하세요",
+    "verificationCodeRequired": "인증 코드는 필수 항목입니다",
+    "sendingEmail": "이메일 전송 중...",
+    "verificationCodeError": "인증 코드가 일치하지 않거나 만료되었습니다",
+    "creatingAccount": "계정 및 기업 생성 중...",
+    "emailSentError": "이메일을 전송할 수 없습니다. 이메일 주소를 확인해주세요. 또는 이메일 주소가 이미 등록되어 있을 수 있습니다.",
+    "registering": "등록 중...",
+    "registerFailed": "등록에 실패했습니다. 다시 시도해주세요.",
+    "registerSuccess": "등록이 완료되었습니다.",
+    "registerSuccessSubtitle": "등록한 이메일과 비밀번호로 로그인해주세요.",
+    "fullName": "이름",
+    "requireFullName": "이름을 입력해주세요",
+    "registerErrorFullNameRequired": "이름은 필수 항목입니다",
+    "mobile": "전화번호",
+    "registerErrorMobileRequired": "전화번호는 필수 항목입니다"
+  },
+  "userRegister": {
+    "title": "관리자가 팀에 초대했습니다",
+    "subtitle": "자신의 이메일을 사용하여 등록하고 시스템에 로그인해주세요.",
+    "successTitle": "👋👋축하합니다! 다음 팀에 참여합니다.",
+    "joinTeam": "팀에 참여중...",
+    "joinTeamSuccess": "팀에 참여 성공, 시스템에 로그인해주세요.",
+    "joinTeamFailed": "팀에 참여에 실패했습니다. 다시 시도해주세요."
+  }
+} 
