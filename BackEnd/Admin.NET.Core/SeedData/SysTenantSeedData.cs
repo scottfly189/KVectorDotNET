@@ -39,7 +39,7 @@ public class SysTenantSeedData : ISqlSugarEntitySeedData<SysTenant>
                 Title="Admin.NET.Pro",
                 ViceTitle="Admin.NET",
                 ViceDesc="A .NET framework for permissions, artificial intelligence, and internationalization",
-                Copyright="Copyright © 2021-present Admin.NET All rights reserved.",
+                Copyright="Copyright © 2021-present KVectorDotNET All rights reserved.",
                 Icp="xxxxxxxxxxxx",
                 IcpUrl="https://beian.miit.gov.cn",
                 Watermark="Admin.NET",

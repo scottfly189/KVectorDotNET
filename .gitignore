@@ -65,3 +65,5 @@ pnpm-debug.log*
 pnpm-lock.yaml
 package-lock.json
 /upload
+
+Admin.NET.db

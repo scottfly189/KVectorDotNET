@@ -119,14 +119,14 @@ public class SysRoleMenuSeedData : ISqlSugarEntitySeedData<SysRoleMenu>
             new SysRoleMenu{ Id=1300000000272, RoleId=1300000000101, MenuId=1310000000372 },
             new SysRoleMenu{ Id=1300000000273, RoleId=1300000000101, MenuId=1310000000373 },
             new SysRoleMenu{ Id=1300000000274, RoleId=1300000000101, MenuId=1310000000374 },
-            // 行政区划
-            new SysRoleMenu{ Id=1300000000281, RoleId=1300000000101, MenuId=1310000000381 },
-            new SysRoleMenu{ Id=1300000000282, RoleId=1300000000101, MenuId=1310000000382 },
-            new SysRoleMenu{ Id=1300000000283, RoleId=1300000000101, MenuId=1310000000383 },
-            new SysRoleMenu{ Id=1300000000284, RoleId=1300000000101, MenuId=1310000000384 },
-            new SysRoleMenu{ Id=1300000000285, RoleId=1300000000101, MenuId=1310000000385 },
-            new SysRoleMenu{ Id=1300000000286, RoleId=1300000000101, MenuId=1310000000386 },
-            new SysRoleMenu{ Id=1300000000287, RoleId=1300000000101, MenuId=1310000000387 },
+            // // 行政区划
+            // new SysRoleMenu{ Id=1300000000281, RoleId=1300000000101, MenuId=1310000000381 },
+            // new SysRoleMenu{ Id=1300000000282, RoleId=1300000000101, MenuId=1310000000382 },
+            // new SysRoleMenu{ Id=1300000000283, RoleId=1300000000101, MenuId=1310000000383 },
+            // new SysRoleMenu{ Id=1300000000284, RoleId=1300000000101, MenuId=1310000000384 },
+            // new SysRoleMenu{ Id=1300000000285, RoleId=1300000000101, MenuId=1310000000385 },
+            // new SysRoleMenu{ Id=1300000000286, RoleId=1300000000101, MenuId=1310000000386 },
+            // new SysRoleMenu{ Id=1300000000287, RoleId=1300000000101, MenuId=1310000000387 },
             // 文件管理
             new SysRoleMenu{ Id=1300000000291, RoleId=1300000000101, MenuId=1310000000391 },
             new SysRoleMenu{ Id=1300000000292, RoleId=1300000000101, MenuId=1310000000392 },
@@ -179,12 +179,12 @@ public class SysRoleMenuSeedData : ISqlSugarEntitySeedData<SysRoleMenu>
             new SysRoleMenu{ Id=1300000000342, RoleId=1300000000101, MenuId=1310000000542 },
             new SysRoleMenu{ Id=1300000000343, RoleId=1300000000101, MenuId=1310000000543 },
             ////// 帮助文档
-            new SysRoleMenu{ Id=1300000000401, RoleId=1300000000101, MenuId=1310000000701 },
-            new SysRoleMenu{ Id=1300000000402, RoleId=1300000000101, MenuId=1310000000711 },
-            new SysRoleMenu{ Id=1300000000403, RoleId=1300000000101, MenuId=1310000000712 },
-            new SysRoleMenu{ Id=1300000000404, RoleId=1300000000101, MenuId=1310000000713 },
-            new SysRoleMenu{ Id=1300000000405, RoleId=1300000000101, MenuId=1310000000714 },
-            new SysRoleMenu{ Id=1300000000455, RoleId=1300000000101, MenuId=1310000000801 },
+            // new SysRoleMenu{ Id=1300000000401, RoleId=1300000000101, MenuId=1310000000701 },
+            // new SysRoleMenu{ Id=1300000000402, RoleId=1300000000101, MenuId=1310000000711 },
+            // new SysRoleMenu{ Id=1300000000403, RoleId=1300000000101, MenuId=1310000000712 },
+            // new SysRoleMenu{ Id=1300000000404, RoleId=1300000000101, MenuId=1310000000713 },
+            // new SysRoleMenu{ Id=1300000000405, RoleId=1300000000101, MenuId=1310000000714 },
+            // new SysRoleMenu{ Id=1300000000455, RoleId=1300000000101, MenuId=1310000000801 },
 
             // 其他角色默认菜单
             ////// 数据面板【1300000000102】
