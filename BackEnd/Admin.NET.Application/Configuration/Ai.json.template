@@ -1,7 +1,7 @@
 {
     "LLM": {
         "ModelProvider": "DeepSeek", // 当前使用模型，取值为下面Providers的ProductName
-        "InitSystemChatMessage": "你是一个经验丰富的 Admin.NET 人工智能助手，请根据用户的问题给出准确的回答。- **回答请以markdown格式输出**;- **适当加入emoji表达人类情感，使内容更易于理解与传播。**",
+        "InitSystemChatMessage": "你是一个经验丰富的 KVectorDotNET 人工智能助手，请根据用户的问题给出准确的回答。- **回答请以markdown格式输出**;- **适当加入emoji表达人类情感，使内容更易于理解与传播。**",
         "UserCanSwitchLLM": true, // 是否可以切换模型
         "TargetCount": 10, // 用于消息截取配置，当消息超过TargetCount+ThresholdCount数量时，会进行截取操作，以避免token超出限制
         "ThresholdCount": 3, // 用于消息截取配置，当消息超过TargetCount+ThresholdCount数量时，会进行截取操作，以避免token超出限制
