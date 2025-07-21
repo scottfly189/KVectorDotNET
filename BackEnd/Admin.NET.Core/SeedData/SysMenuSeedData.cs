@@ -168,8 +168,6 @@ public class SysMenuSeedData : ISqlSugarEntitySeedData<SysMenu>
             new SysMenu{ Id=1310000000445, Pid=1310000000441, Title="获取支付订单详情(微信接口)", Permission="sysWechatPay/payInfoFromWechat", Type=MenuTypeEnum.Btn, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=100 },
             new SysMenu{ Id=1310000000446, Pid=1310000000441, Title="退款申请", Permission="sysWechatPay/refundDomestic", Type=MenuTypeEnum.Btn, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=100 },
 
-            new SysMenu{ Id=1310000000451, Pid=1310000000301, Title="更新日志", Path="/platform/upgrade", Name="sysUpgrade", Component="/system/upgrade/index", Icon="ele-Paperclip", Type=MenuTypeEnum.Menu, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=220 },
-
             //new SysMenu{ Id=1310000000461, Pid=1310000000301, Title="数据库备份", Path="/platform/dbBackup", Name="dbBackup", Component="/system/database/dbBackup", Icon="ele-Coin", Type=MenuTypeEnum.Menu, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=240 },
             //new SysMenu{ Id=1310000000462, Pid=1310000000461, Title="查询", Permission="dbBackup/page", Type=MenuTypeEnum.Btn, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=100 },
             //new SysMenu{ Id=1310000000463, Pid=1310000000461, Title="删除", Permission="dbBackup/delete", Type=MenuTypeEnum.Btn, CreateTime=DateTime.Parse("2022-02-10 00:00:00"), OrderNo=100 },
