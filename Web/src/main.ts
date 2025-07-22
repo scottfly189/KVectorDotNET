@@ -28,6 +28,7 @@ import 'jwchat/lib/style.css';
 import sysDict from '/@/components/sysDict/sysDict.vue';
 // AI组件
 import ElementPlusX from 'vue-element-plus-x';
+
 // 关闭自动打印
 import { disAutoConnect } from 'vue-plugin-hiprint';
 disAutoConnect();
