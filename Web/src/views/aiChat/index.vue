@@ -112,7 +112,9 @@
 							style="padding: 0 60px 100px 60px" @complete="handleBubbleComplete"
 							:triggerIndices="triggerIndices">
 							<template #content="{ item }">
-								<XMarkdown 
+								<Typewriter v-if="chatList.length > 0 && chatList[chatList.length - 1].key === item.key && isSenderLoading" :content="item.content" :is-markdown="true" :typing="true" @finish="handleTypeingComplete"/>
+								<XMarkdown
+									v-else
 									:markdown="item.content" 
 									default-theme-mode="light" 
 									class="markdown-body"
@@ -241,7 +243,7 @@ const isFold = ref(false);
 const sidebarWidth = ref(260);
 const isPlaying = ref(false);
 const playAudioKey = ref('');
-const chatRef = ref<any>(null);
+const chatRef = ref<any>();
 const sideBarHistoryList = ref<ConversationItem<{ key: string; label: string }>[]>([]);
 type listType = BubbleListItemProps & {
 	key: string;
@@ -364,6 +366,7 @@ const initSSEConnectionCore = () => {
 			chatList.value[chatList.value.length - 1].loading = false;
 			chatList.value[chatList.value.length - 1].isMarkdown = true;
 			chatList.value[chatList.value.length - 1].content = currentChatItemMessage.value;
+			chatRef?.value?.scrollToBottom();
 			return;
 		}
 		currentChatItemMessage.value = currentChatItemMessage.value + data; // 先接收流式数据存放在临时变量中
@@ -395,7 +398,13 @@ const closeSSEConnection = () => {
 
 const handleBubbleComplete = (instance: TypewriterInstance, index: number) => {
 	isSenderLoading.value = false;
+	chatRef?.value?.scrollToBottom();
 };
+
+const handleTypeingComplete = ()=>{
+	isSenderLoading.value = false;
+	chatRef?.value?.scrollToBottom();
+}
 
 //#endregion sse客户端
 const handleSend = async () => {
@@ -460,7 +469,7 @@ const newChat = async () => {
 		deepThinkingStatus.value = 'start';
 		deepThinkingMessage.value = t('message.chat.thinkingPrepare');
 	}
-	chatRef.value.scrollToBottom();
+	chatRef?.value?.scrollToBottom();
 	// 添加到历史记录列表
 	historyListSource.push(chatSummary);
 	sideBarHistoryList.value.unshift({
@@ -527,7 +536,7 @@ const continueChat = async () => {
 		deepThinkingMessage.value = t('message.chat.thinkingPrepare');
 	}
 
-	chatRef.value.scrollToBottom();
+	chatRef?.value?.scrollToBottom();
 	let resultData = await getAPI(LLMChatApi).apiLLMChatChatPost({
 		uniqueToken: currentHistoryItem.uniqueToken,
 		message: inputStr,
@@ -601,6 +610,7 @@ const handleChange = (item: ConversationItem<{ key: string; label: string }>) =>
 		list = list?.filter((u: LLMChatHistory) => u.role == 'user' || u.role == 'assistant');
 		list?.forEach((u: LLMChatHistory) => addChatItem(u));
 	}
+	chatRef?.value?.scrollToBottom();
 };
 
 // 添加聊天记录
