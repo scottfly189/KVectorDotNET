@@ -9,7 +9,6 @@ import { CodeInspectorPlugin } from 'code-inspector-plugin';
 import fs from 'fs';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { webUpdateNotice } from '@plugin-web-update-notification/vite';
-import { copyPublicPlugin } from 'vite-plugin-forvmsc';
 // monaco 菜单汉化 https://wf0.github.io/example/plugins/I18n.html
 import monacoZhHans from './public/monaco/zh-hans.json';
 import nlsPlugin, { Languages, esbuildPluginMonacoEditorNls } from './public/monaco/vite-plugin-i18n-nls';
@@ -62,7 +61,6 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 				locale: Languages.zh_hans,
 				localeData: monacoZhHans,
 			}),
-			copyPublicPlugin(),
 		],
 		root: process.cwd(),
 		resolve: { alias },

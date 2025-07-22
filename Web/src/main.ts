@@ -28,8 +28,6 @@ import 'jwchat/lib/style.css';
 import sysDict from '/@/components/sysDict/sysDict.vue';
 // AI组件
 import ElementPlusX from 'vue-element-plus-x';
-import 'vue-markdown-shiki/style'
-import markdownPlugin from 'vue-markdown-shiki'
 // 关闭自动打印
 import { disAutoConnect } from 'vue-plugin-hiprint';
 disAutoConnect();
@@ -41,4 +39,4 @@ other.elSvg(app);
 // 注册全局字典组件
 app.component('GSysDict', sysDict);
 
-app.use(pinia).use(i18n).use(router).use(ElementPlus).use(setupVXETable).use(VueGridLayout).use(VForm3).use(VueSignaturePad).use(vue3TreeOrg).use(JwChat).use(ElementPlusX).use(markdownPlugin).mount('#app');
+app.use(pinia).use(i18n).use(router).use(ElementPlus).use(setupVXETable).use(VueGridLayout).use(VForm3).use(VueSignaturePad).use(vue3TreeOrg).use(JwChat).use(ElementPlusX).mount('#app');

@@ -111,6 +111,13 @@
 						<BubbleList class="chat_content_list" ref="chatRef" :list="chatList" maxHeight="100%"
 							style="padding: 0 60px 100px 60px" @complete="handleBubbleComplete"
 							:triggerIndices="triggerIndices">
+							<template #content="{ item }">
+								<XMarkdown 
+									:markdown="item.content" 
+									default-theme-mode="light" 
+									class="markdown-body"
+								/>
+							</template>
 							<template #header="{ item }">
 								<div v-if="item.role == 'assistant' && deepThinkingVisible && item.key == chatList[chatList.length - 1].key"
 									class="header-wrapper">
@@ -129,7 +136,7 @@
 										</template>
 										<template #content="{ content }">
 											<span>
-												<VueMarkdownIt class="deep-thinking-content" :content="content" />
+												<XMarkdown :markdown="content" default-theme-mode="light" class="vp-raw"  />
 											</span>
 										</template>
 									</Thinking>
@@ -216,9 +223,9 @@ import { v4 as uuidv4 } from 'uuid';
 import type { BubbleListItemProps, BubbleListProps } from 'vue-element-plus-x/types/components/BubbleList/types';
 import type { ConversationItem } from 'vue-element-plus-x/types/components/Conversations/types';
 import type { TypewriterInstance } from 'vue-element-plus-x/types/components/Typewriter/types';
-import 'vue-element-plus-x/styles/prism.min.css';
-import 'vue-element-plus-x/styles/prism-solarizedlight.min.css';
-import { VueMarkdownIt } from 'vue-markdown-shiki';
+// import 'vue-element-plus-x/styles/prism-coy.min.css'
+// import 'vue-element-plus-x/styles/prism.min.css'
+
 
 import { getAPI } from '/@/utils/axios-utils';
 import { LLMChatApi } from '/@/api-services/api';
@@ -327,7 +334,7 @@ const initSSEConnectionCore = () => {
 
 	// 收到deepThinking消息
 	eventSource.addEventListener('deepThinking', (event) => {
-		let data = event.data?.replace(/\\x0A/g, '\n ');
+		let data = event.data?.replace(/\\x0A/g, '\n');
 		if (data?.includes('[BEGIN]')) {
 			deepThinkingMessage.value = '';
 			deepThinkingStatus.value = 'thinking';
@@ -343,7 +350,7 @@ const initSSEConnectionCore = () => {
 
 	// 收到chat消息
 	eventSource.addEventListener('chat', (event) => {
-		let data = event.data?.replace(/\\x0A/g, '\n ');
+		let data = event.data?.replace(/\\x0A/g, '\n');
 		if (data?.includes('[BEGIN]')) {
 			currentChatItemMessage.value = '';
 			currentChatItem.value.content = '';
@@ -1105,6 +1112,18 @@ onBeforeUnmount(() => {
 }
 
 .chat_content_list :deep(.typer-content) {
+	font-size: 16px !important;
+	letter-spacing: 0.03em !important;
+	line-height: 2em !important;
+	font-weight: 500 !important;
+}
+.vp-raw {
+	background-color: #f0f0f0;
+		padding: 2px 20px;
+		border-radius: 4px;
+		line-height: 2em;
+}
+.markdown-body {
 	font-size: 16px !important;
 	letter-spacing: 0.03em !important;
 	line-height: 2em !important;
